@@ -1,0 +1,25 @@
+{
+  "title": "Наши награды",
+  "list": [
+    {
+      "img": "awards/img__1.png",
+      "label": "Global CIO",
+      "descr": "«Лучший проект по импортозамещению ВКС 2024»"
+    },
+    {
+      "img": "awards/img__2.png",
+      "label": "CNews Awards",
+      "descr": "«Безопасность в ВКС: решение года 2024»"
+    },
+    {
+      "img": "awards/img__3.png",
+      "label": "«Время инноваций»",
+      "descr": "«Импортозамещение: продукт года 2023»"
+    },
+    {
+      "img": "awards/img__4.png",
+      "label": "Tadviser IT Prize",
+      "descr": "«Платформа года для корпоративных коммуникаций 2023»"
+    }
+  ]
+}

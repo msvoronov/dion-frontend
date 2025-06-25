@@ -1,0 +1,38 @@
+.modal-form {
+  padding: 40px 40px;
+  @include bg-color(#0162ff);
+  &__title {
+    @extend %font-RFDewiExtended;
+    @include font-size(32px, 1.4, 700);
+    margin: 0 auto 24px;
+    text-align: center;
+  }
+  &__form {
+    @include flex(column, $gap: 24px);
+  }
+
+  .form__field {
+    @include max-size(100%)
+  }
+
+  &__btn {
+    @include color(#111314);
+    @include bg-color(#fff);
+
+    @include size(100%);
+    @include font-size(16px, 1.4, 600);
+
+    @include flex(roe, center, center);
+    padding: 16px 0;
+    border-radius: 100px;
+  }
+
+  .form__checkbox__wrap  {
+    @include flex(column, $gap: 24px);
+  }
+
+  .form__checkbox__label a {
+    @include color(#fff);
+    text-decoration: underline;
+  }
+}

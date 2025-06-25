@@ -1,0 +1,100 @@
+.modal-info {
+  
+  &__wrap {
+    // @include max-size(null, 820px);
+  
+    padding: 32px;
+
+    padding-right: 4px;
+
+  
+  }
+
+  &__content {
+    @include flex(column, $gap: 48px);
+    @include max-size(null, 22.6rem);
+    @extend %custom-srollbar-y;
+    overflow-y: auto;
+  }
+  &__content-item {
+    @include flex(column, $gap: 12px);
+    padding-right: 28px;
+    &:last-child {
+          margin-bottom: 36px;
+    }
+  }
+  &__title {
+    @include font-size(2.4rem, 1.2, 500);
+    padding-bottom: 24px;
+  }
+
+  &__subtitle {
+    @include font-size(1.4rem, 1.2, 500);
+  }
+  &__person {
+    @include flex($gap: 12px);
+  
+  }
+  &__img {
+    @include size(60px, 60px);
+    border-radius: 50%;
+    overflow: hidden;
+    img {
+      @include size(100%, 100%);
+    }
+  }
+  &__info {
+    @include flex(column, space-between);
+    @include font-size(1rem, 1.2, 500);
+    @include color(#000000);
+    
+  }
+  
+  &__position {
+    @include color(#8496A8);
+  }
+
+  &__text {
+    @include font-size(0.9rem, 1.2, 400);
+    @include color(#8496A8);
+    
+    strong {
+      @include color(#000);
+    }
+  }
+
+  &__bot {
+    @include position(relative);
+    @include flex(row, space-between, $gap: 10px);
+    padding-top: 16px;
+    margin-bottom: -16px;
+    padding-right: 30px;
+
+    &::before {
+      content: "";
+      @include position(absolute, $top: 0, $left: -32px);
+      @include size(calc(100% + 64px), 1px);
+      @include bg-color(#E1E5EA);
+    }
+  }
+
+  .btn {
+    @include bg-color(#F7F7F8);
+  }
+  
+  .btn-big {
+    @include bg-color(#00AAE6);
+
+    &.checked {
+      pointer-events: none;
+    }
+    
+    &.disabled {
+      pointer-events: none;
+      @include bg-color(transparent);
+      @include color(#b9c4d0);
+      border: 1px, solid, #b9c4d0;
+    }
+
+  }
+}

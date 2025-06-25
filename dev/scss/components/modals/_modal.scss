@@ -1,0 +1,228 @@
+.modal {
+    @extend %none-pointer-events;
+    @extend %overflow-clip;
+
+    @include flex(row, center, center);
+    @include position(fixed, $top: 0, $left: 0, $right: 0, $bottom: 0);
+    @include size(100vw, 100%);
+    @include transition(#{opacity, visibility});
+    @include bg-color(#000, 0.5);
+
+    backdrop-filter: blur(5px);
+
+    z-index: 1050;
+
+    opacity: 0;
+    visibility: hidden;
+
+    &.active {
+        @extend %all-pointer-events;
+
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &-title {
+        @include position(absolute, $top: 24px, $left: 24px);
+        @include font-size(1rem, 1.4, 600);
+
+        @include media-max-md() {
+            @include position(absolute, $top: 20px, $left: 20px);
+            @include font-size(0.8rem, 1.4, 600);
+
+        }
+
+        @include media-max-s() {
+            @include flex();
+            @include font-size(18px, 1.2, 600);
+
+            margin-bottom: unset
+        }
+    }
+
+    &-content {
+        @include position(relative);
+        @include size(100%);
+        @include max-size(45.6rem, 85%);
+        @include flex(column);
+
+
+
+        margin: auto;
+        border-radius: 20px;
+
+        &--inner {
+            @extend %overflow-scroll-y;
+
+            @include size(100%);
+            @include max-size(100%, 100%);
+            flex: 1;
+
+
+            &::-webkit-scrollbar {
+                @include size(7px);
+            }
+        }
+    }
+
+    &-title {
+        @include font-size(32px, 1.2, 700);
+        @include text-align(center);
+        @include size(100%);
+
+        margin-bottom: 32px;
+    }
+
+    &-descr {
+        @include font-size(20px, 1.2, 400);
+        @include color(#000);
+        @include text-align(center);
+        @include size(100%);
+    }
+
+    &-terms {
+        @include font-size(16px, 1.2, 400);
+        @include color(#000);
+        @include text-align(center);
+
+        &__link {
+            @extend %underlined-text;
+
+            @include transition(opacity);
+
+            @include hover {
+                text-decoration: underline;
+                opacity: 0.5;
+            }
+        }
+    }
+
+    &-icon {
+        @include size(128px, 128px);
+        @include min-size(128px, 128px);
+
+        margin: 0 auto;
+        margin-bottom: 32px;
+
+        svg,
+        img {
+            @include size(100%, 100%);
+        }
+    }
+
+    &-close {
+        cursor: pointer;
+
+        @include position(absolute, $top: 20px, $right: 20px);
+        @include size(24px, 24px);
+        @include min-size(24px, 24px);
+
+        @include flex(row, center, center);
+        @include transition(opacity);
+
+        &::before,
+        &::after {
+            content: "";
+
+            @include position(absolute);
+            @include size(24px, 1.5px);
+
+            @include bg-color(#000);
+            @include transition(background-color);
+        }
+
+        &::before {
+            transform: rotate(45deg);
+        }
+
+        &::after {
+            transform: rotate(135deg);
+        }
+
+        &:hover {
+
+            &::before,
+            &::after {
+                /*  background-color: #dde4fc; */
+            }
+        }
+    }
+
+    &-btn {
+        @include flex(row, center, center);
+        margin: 0 auto;
+        margin-top: 32px;
+
+        @include font-size(20px, 1.2);
+        @include size(100%, 64px);
+        @include text-align(center);
+        @include bg-color(#000);
+        @include color(#fff);
+        color: #fff !important;
+
+        text-transform: uppercase;
+
+        border-radius: 73px;
+
+        padding: 14px 50px;
+
+        @include transition(#{color, background-color});
+
+        @include hover {
+            color: #fff !important;
+        }
+    }
+
+    @media (max-width: $max_s) {
+
+
+        &-content {
+            padding: 76px 0 30px 12px;
+            border-radius: 10px;
+
+            &--inner {
+                padding-right: 12px;
+            }
+        }
+
+        &-terms {
+            @include font-size(12px, 1.2);
+        }
+
+        &-btn {
+            @include font-size(16px, 1.2);
+            @include size(100%, 48px);
+        }
+
+        &-descr {
+            @include font-size(16px, 1.2);
+        }
+
+        &-icon {
+            @include size(80px, 80px);
+            @include min-size(80px, 80px);
+            margin-bottom: 24px;
+        }
+
+        .c-form {
+            &__fields {
+                margin-bottom: 37px;
+            }
+
+            .c-btn-group {
+                margin-top: 11px;
+
+                &__item {
+                    @include font-size(16px, 1.2);
+                    @include size(100%, 48px);
+                }
+            }
+        }
+    }
+
+    @media (max-width: $max_xs) {
+        &-content {
+            @include max-size(335px, 100%);
+        }
+    }
+}

@@ -1,0 +1,30 @@
+{{#with this.store.nominationModal}}
+  {{#each list}}
+    {{#> components/modal-wrap id=id title=title classNameModal="modal-nominations" }}
+    <div class="modal-nominations__wrap">
+      <div class="modal-nominations__title">{{title}}</div>
+
+
+      <div class="modal-nominations__content">
+              {{#if topText}}
+              <div class="modal-nominations__text">{{{topText}}}</div>
+              {{/if}}
+        {{#each infoWrap}}
+          <div class="modal-nominations__info-wrap">
+            <div class="modal-nominations__info-wrap__subtitle">{{subtitle}}</div>
+            <ul class="modal-nominations__info-wrap__list">
+              {{#each list}}
+                <li class="modal-nominations__info-wrap__list__item">{{this}}</li>
+              {{/each}}
+            </ul>
+          </div>
+        {{/each}}
+        <div class="modal-nominations__text">{{{text}}}</div>
+      </div>
+      <div class="modal-nominations__button-wrap">
+        <a href="{{href}}" class="btn btn-blue btn-big{{#if btnClass}} {{btnClass}}{{/if}}">{{btnLabel}}</a>
+      </div>
+    </div>
+    {{/components/modal-wrap}}
+  {{/each}}
+{{/with}}

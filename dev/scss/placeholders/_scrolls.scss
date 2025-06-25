@@ -1,0 +1,81 @@
+%custom-srollbar-y {
+  @extend %overflow-scroll-y;
+
+  // scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    @include size(6px);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    @include bg-color(#D2D8DF);
+    border-radius: 3px;
+  }
+}
+
+%custom-srollbar-select-y {
+  @extend %overflow-scroll-y;
+
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    @include size(2px);
+  }
+
+  &::-webkit-scrollbar-track {
+    border-radius: 1px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 1px;
+  }
+}
+
+%custom-srollbar-white-y {
+  @extend %overflow-scroll-y;
+
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    @include size(10px);
+  }
+
+  &::-webkit-scrollbar-track {
+    @include bg-color(#fff);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+  }
+}
+
+%custom-srollbar-yellow-y--thin {
+  @extend %overflow-scroll-y;
+
+  scrollbar-width: thin;
+  &::-webkit-scrollbar {
+    @include size(6px);
+  }
+
+  &::-webkit-scrollbar-track {
+    @include bg-color(#fff);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+  }
+}
+
+%custom-srollbar-green-y {
+  @extend %overflow-scroll-y;
+
+  scrollbar-width: thin;
+
+  &::-webkit-scrollbar {
+    @include size(2px);
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+  }
+}

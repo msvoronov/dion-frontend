@@ -1,0 +1,55 @@
+.btn {
+  @include font-size(1rem, 1.4, 500);
+
+  @include bg-color($blue);
+  @include color(#fff);
+
+  @include transition(background-color);
+  
+  padding: 8px 24px;
+  text-align: center;
+  
+  border-radius: 60px;
+
+  cursor: pointer;
+
+  @include hover() {
+    // @include bg-color($blue-dark)
+  }
+
+  &-round {
+    @include bg-color($blue);
+    @include flex(row, center, center);
+    @include size(64px, 64px);
+
+    border-radius: 50%;
+  }
+
+  &-small {
+    @include font-size(0.8rem, 1.4, 500);
+    padding: 4px 12px;
+  }
+  &-big {
+    @include font-size(1rem, 1.4, 500);
+    padding: 17px 80px;
+  }
+  &-white {
+      @include flex();
+      @include size(fit-content);
+      @include bg-color(#fff);
+      @include color($blue);
+      @include transition(background-color);
+      @include font-size(1rem, 1.4, 500);
+      @include hover() {
+          @include bg-color($gray-light);
+      }
+      border-radius: 227.5px;
+      padding: 17px 80px;
+      cursor: pointer;
+      @include media-max-s() {
+          @include size(100%);
+          @include flex(row, center);
+          padding: 8px 20px;
+      }
+  }
+}

@@ -1,0 +1,33 @@
+@mixin border($color, $width: 1px, $style: solid, $position: null) {
+    @if (
+        $position ==
+            "top" or
+            $position ==
+            "bottom" or
+            $position ==
+            "left" or
+            $position ==
+            "right"
+    ) {
+        border-#{$position}: $width $style $color;
+    } @else {
+        border: $width $style $color;
+    }
+}
+
+@mixin outline($color, $width: 1px, $style: solid, $position: null) {
+    @if (
+        $position ==
+            "top" or
+            $position ==
+            "bottom" or
+            $position ==
+            "left" or
+            $position ==
+            "right"
+    ) {
+        outline-#{$position}: $width $style $color;
+    } @else {
+        outline: $width $style $color;
+    }
+}

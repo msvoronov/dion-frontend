@@ -1,0 +1,121 @@
+.block-hero {
+  @include position(relative);
+  @include size(100%, 100vh);
+  @include flex($align: center);
+  overflow: hidden;
+  
+  @include media-max-md() {
+    padding-top: 80px;
+  }
+  @include media-max-s() {
+    padding-top: 134px;
+    @include size(100%, 100%);
+  }
+
+  .container {
+    @include size(null, 100%);
+  }
+
+  &__bg {
+    @include position(absolute, $top: 0, $left: 0);
+    @include image-wrap(100%, 100%, cover);
+  }
+
+
+  &__wrap {
+    @include position(relative);
+    @include flex(row,null,center, $gap: 50px);
+@include size(null, 100%);
+    @include media-max-s() {
+      @include flex(column, $gap: 0);
+    }
+
+  }
+
+  &__content {
+    @include min-size(540px);
+    
+    @include media-max-md() {
+      @include min-size(301px);
+      @include max-size(301px);
+    }
+  }
+
+  &__title {
+    @extend %font-RFDewiExtended;
+    @include font-size(61.47px, 73.77px, 800);
+    margin-bottom: 38px;
+    
+    @include media-max-md() {
+      @include font-size(38.95px, 1, 800);
+
+    }
+    
+  }
+  
+  &__descr {
+    @include font-size(17.67px, 22.72px, 400);
+    margin-bottom: 53px;
+    
+    @include media-max-md() {
+      margin-bottom: 51px;
+      @include font-size(15.3px, 19.67px, 400);
+  
+    }
+    @include media-max-s() {
+      margin-bottom: 0;
+  
+    }
+  }
+
+  &__btn {
+    border-radius: 16px;
+    @include bg-color(#fff);
+    @include color(#111314);
+    padding: 19px 24px;
+    @include font-size(23px, 24px, 800);
+    @include size(fit-content);
+    
+    
+    @include media-max-md() {
+      @include font-size(19.91px, 20.77px, 800);
+
+    }
+
+    @include media-max-s() {
+      @include position(absolute, $left: 0, $top: 370px);
+      @include size(100%);
+      text-align: center;
+    }
+  }
+
+  &__img {
+    @include size(100%, 100%);
+    @include image-wrap(100%);
+
+    @include media-max-s() {
+      @include max-size(285px);
+    }
+  }
+
+  &__scroll {
+    opacity: 0.5;
+    @include position(absolute, $left: 50%, $bottom: 95px);
+    transform: translateX(-50%);
+    @include flex(column, center, center, 10px);
+    
+    @include media-max-md() {
+      @include position(absolute, $left: 50%, $bottom: 26px);
+
+    }
+    
+    @include media-max-s() {
+     display: none
+    }
+    &__text {
+      @include font-size(10px, 1.3, 400);
+      @include color(rgb(255, 255, 255));
+      text-align: center;
+    }
+  }
+}

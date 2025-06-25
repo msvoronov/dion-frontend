@@ -1,0 +1,52 @@
+%font-RFDewi {
+    @extend %font-style-normal;
+
+    font-family: "RFDewi";
+}
+%font-RFDewiExtended {
+    @extend %font-style-normal;
+
+    font-family: "RFDewiExtended";
+}
+
+%font-Arial {
+    @extend %font-style-normal;
+
+    font-family: "Arial";
+}
+
+%font-BebasNeue {
+    @extend %font-style-normal;
+
+    font-family: "BebasNeue";
+}
+
+%font-InterTight {
+    @extend %font-style-normal;
+
+    font-family: "InterTight";
+}
+
+%font-Inter {
+    @extend %font-style-normal;
+
+    font-family: "Inter";
+}
+
+%font-Montserrat {
+    @extend %font-style-normal;
+
+    font-family: "Montserrat";
+}
+
+%font-ALSHauss {
+    @extend %font-style-normal;
+
+    font-family: "ALS Hauss";
+}
+
+%font-style-normal {
+    font-style: normal;
+}
+
+

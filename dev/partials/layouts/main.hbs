@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru"
+      data-scroll-detection="">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible"
+          content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, user-scalable=0">
+    <link rel="stylesheet"
+          href="{{ url 'css/main.min.css' }}">
+    <link rel="stylesheet"
+          href="{{ url 'css/assets.min.css' }}">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/intl-tel-input@25.3.1/build/css/intlTelInput.css">
+
+
+    <title>{{title}}</title>
+
+</head>
+
+
+<body>
+
+
+    <div class="site-wrap">
+      {{#with this.store.enterpriseHeader}}
+        {{> components/header}}
+      {{/with}}
+        <main class="main">
+            {{#if breadcrumbs}}
+            {{> components/breadcrumbs list=breadcrumbs }}
+            {{/if}}
+            {{#if titleValue}}
+            <h1>{{titleValue}}</h1>
+            {{/if}}
+            {{> @partial-block }}
+        </main>
+
+        {{> components/footer}}
+        {{> modals/modals}}
+
+    </div>
+    <script src="{{ url 'js/assets.min.js' }}"></script>
+    <script src="{{ url 'js/main.min.js' }}"></script>
+</body>
+
+</html>

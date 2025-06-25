@@ -1,0 +1,29 @@
+@mixin font-size($size: 14px, $height: $size, $weight: null) {
+    @if $size != null {
+        font-size: $size;
+        line-height: $height;
+    }
+
+    @if $weight != null {
+        font-weight: $weight;
+    }
+}
+
+@mixin text-align($horizontal: null, $vertical: null) {
+    @if $horizontal != null {
+        text-align: $horizontal;
+    }
+
+    @if $vertical != null {
+        vertical-align: $vertical;
+    }
+}
+
+@mixin line-clamp($lines: null) {
+    @if $lines != null {
+        -webkit-line-clamp: $lines;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+}

@@ -1,0 +1,7 @@
+.section-sitemap {
+    .sitemap {
+        padding: 50px 0;
+
+        @include flex(column, $gap: 20px);
+    }
+}

@@ -1,0 +1,41 @@
+{
+  "title": "Номинации и проекты",
+  "list": [
+     {
+        "title": "Самый масштабный проект",
+        "descr": "Крупные проекты, которые оказали большое влияние на развитие бизнеса компании",
+        "img": "nomination/nomination__1.png",
+        "href": "samyy-masshtabnyy-proyekt"
+    },
+    {
+        "title": "На пике инноваций",
+        "descr": "Инновационные проекты/продукты/разработки, которые задают тренды на ИТ-рынке",
+        "img": "nomination/nomination__2.png",
+        "href": "na-pike-innovatsiy"
+    },
+    {
+        "title": "Сделка года",
+        "descr": "Максимально успешные коммерческие проекты",
+        "img": "nomination/nomination__3.png",
+        "href": "sdelka-goda"
+    },
+    {
+        "title": "Новые рынки и территории",
+        "descr": "Проекты, которые открыли для холдинга перспективы на новых рынках и территориях",
+        "img": "nomination/nomination__4.png",
+        "href": "novye-rynki-i-territorii"
+    },
+    {
+        "title": "Сила улучшений",
+        "descr": "Проекты, которые внесли существенный вклад в автоматизацию или эффективное изменение внутренних процессов компании",
+        "img": "nomination/nomination__5.png",
+        "href": "sila-uluchsheniy"
+    },
+    {
+        "title": "Покоряя сердца",
+        "descr": "Проекты, которые объединяют людей вокруг бренда Т1. Сотрудников. Кандидатов. Партнеров.",
+        "img": "nomination/nomination__6.png",
+        "href": "pokoryaya-serdtsa"
+    }
+  ]
+}

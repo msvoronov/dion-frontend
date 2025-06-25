@@ -1,0 +1,35 @@
+{
+  "title": "Наши клиенты",
+  "list": [
+    {
+      "img": "clients/img__1.png",
+      "label": "Гибрид",
+      "descr": "20 000 лицензий"
+    },
+    {
+      "img": "clients/img__2.png",
+      "label": "Гибрид",
+      "descr": "1 000 лицензий"
+    },
+    {
+      "img": "clients/img__3.png",
+      "label": "Облако",
+      "descr": "200 лицензий"
+    },
+    {
+      "img": "clients/img__4.png",
+      "label": "On-premise",
+      "descr": "2 500 лицензий"
+    },
+    {
+      "img": "clients/img__5.png",
+      "label": "Облако",
+      "descr": "24 100 лицензий"
+    },
+    {
+      "img": "clients/img__6.png",
+      "label": "Облако",
+      "descr": "500 лицензий"
+    }
+  ]
+}

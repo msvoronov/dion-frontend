@@ -1,0 +1,42 @@
+.scroll-bullets {
+  @include position(fixed, $top: 50%, $left: 40px);
+  transform: translateY(-50%);
+  z-index: 1;
+  
+  @include flex(column, $gap: 20px);
+  
+  @include media-max-md() {
+    @include position(fixed, $top: 50%, $left: 38px);
+    @include flex(column, $gap: 17px);
+    
+  }
+  
+  @include media-max-s() {
+    display: none;
+    
+  }
+
+  &__bullet {
+    @include size(20px, 20px);
+    border-radius: 50%;
+    @include border(#FFFFFF4D, 0.87px, solid);
+    
+    @include bg-color(transparent);
+    
+    @include transition(#{border-color, background-color});
+    
+    @include hover() {
+      border-color: #D9D9D9;
+      @include bg-color(#D9D9D9);
+    }
+    
+    &.active {
+      @include bg-color(#D9D9D9);
+    }
+    
+    @include media-max-md() {
+      @include size(10px, 10px);
+
+    }
+  }
+}

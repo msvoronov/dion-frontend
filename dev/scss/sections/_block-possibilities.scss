@@ -1,0 +1,42 @@
+.block-possibilities {
+  &__wrap {
+    @include flex($gap: 10px);
+    @include flex-wrap();
+
+    margin-bottom: 20px
+  }
+
+  &__tip {
+    @include font-size(18px, 24px, 400);
+    margin-top: 60px;
+
+  }
+
+  &__item {
+    @include item-size(2, 10px);
+    @include bg-color(#191C1E);
+
+    @include flex(row, null, center, 33px);
+
+    padding: 24px 33px;
+
+    border-radius: 24px;
+
+
+    @include media-max-md() {
+      padding: 28px 20px;
+    }
+    @include media-max-s() {
+      @include max-size(100%);
+    }
+
+
+    &__img {
+      @include svg-wrap(58px, 58px);
+    }
+
+    &__descr {
+      @include font-size(18px, 22px, 400);
+    }
+  }
+}

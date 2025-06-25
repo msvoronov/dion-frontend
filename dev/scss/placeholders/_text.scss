@@ -1,0 +1,64 @@
+%container-title {
+    @include font-size(2.4rem, 1, 500);
+
+    letter-spacing: -1.92px;
+
+    @include media-max-md() {
+        @include font-size(1.4rem, 1.2, 500);
+
+        letter-spacing: -0.84px;
+    }
+}
+
+%head-title {
+    @include font-size(96px, 96px, 700);
+    @include bg-color-text(
+        "/local/templates/mac/front/dist/assets/img/texture-orange.png"
+    );
+
+    @include media-max-md() {
+        @include font-size(64px, 64px, 700);
+    }
+
+    @include media-max-s() {
+        @include font-size(48px, 48px, 700);
+    }
+}
+
+%default-text {
+    @include font-size(24px, 1.2, 400);
+    @include media-max-md() {
+        @include font-size(1rem, 1.2, 400);
+    }
+
+    @include media-max-s() {
+        @include font-size(0.8rem, 1.2, 400);
+    }
+}
+
+%ellipsis {
+    text-overflow: ellipsis;
+}
+
+%underlined-text {
+    text-decoration: underline;
+}
+
+%uppercase-text {
+    text-transform: uppercase;
+}
+
+%nowrap-text {
+    white-space: nowrap;
+}
+
+%underline {
+    @include position(relative);
+    &::after {
+        @include position(absolute, $bottom: 0, $left: 0);
+        @include size(100%, 1px);
+        @include transition(background-color);
+
+        content: "";
+    }
+}

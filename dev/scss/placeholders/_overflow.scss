@@ -1,0 +1,33 @@
+// Scrollable overflow-y
+%overflow-scroll-y {
+    overflow-x: clip;
+    overflow-y: auto;
+}
+
+// Scrollable overflow-x
+%overflow-scroll-x {
+    overflow-x: auto;
+    overflow-y: clip;
+}
+
+// Visible-x
+%overflow-visible-x {
+    overflow-x: visible;
+    overflow-y: clip;
+}
+
+// Visible-y
+%overflow-visible-y {
+    overflow-y: visible;
+    overflow-x: clip;
+}
+
+// Clipped overflow
+%overflow-clip {
+    overflow: clip;
+}
+
+// Visible overflow
+%overflow-visible {
+    overflow: visible;
+}

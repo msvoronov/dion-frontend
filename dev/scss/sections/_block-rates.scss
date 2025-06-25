@@ -1,0 +1,690 @@
+#rec615337467 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.rates {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.rates-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 33px;
+    justify-self: center;
+
+}
+
+.rates-title {
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-family: 'RFDewiExtended', Arial, sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    letter-spacing: -0.38px;
+
+    @include media-max-s() {
+        padding-left: 43px;
+    }
+}
+
+.rates-list {
+    @include size(100%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    list-style: none;
+    padding-inline-start: 0 !important;
+
+}
+
+.rates-list__item {
+    padding: 17px;
+    background: #1C1D21;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+    box-sizing: border-box;
+    flex-grow: 1;
+
+    @include item-size(4, 16px);
+    
+    @include media-max-md() {
+        @include item-size(2, 16px);
+
+    }
+    @include media-max-s() {
+        @include max-size(100%);
+
+    }
+
+}
+
+.rate-name {
+    @extend %font-RFDewiExtended;
+    @include font-size(17.66px, 102%, 800);
+    color: #FFF;
+    text-align: center;
+    /* 24.48px */
+    letter-spacing: -0.36px;
+    text-align: left;
+}
+
+.rate-description {
+    @include font-size(11.78px,16.19px,  400);
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    /* 137.5% */
+}
+
+.rate-price {
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    @extend %font-RFDewiExtended;;
+    @include font-size(20.61px, 1, 800);
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    
+    
+}
+.rate-price__year {
+    @include font-size(20.61px, 1, 400);
+}
+
+.rate-price>span {
+    color: #8F909E;
+    font-family: 'VTBGroupUI', Arial, sans-serif;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 120% */
+}
+
+.rate-button {
+    color: #FFF;
+    display: flex;
+    width: 153px;
+     @extend %font-RFDewiExtended;;
+    padding: 12px 24px 14px 24px;
+
+
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 30px;
+    background: #0062FF;
+
+}
+
+.rate-button > a {
+    color: #FFF !important;
+    text-decoration: none;
+}
+
+
+
+.rates-list__about {
+    @include position(relative);
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 25px 17px;
+    padding-left: 0 !important;
+}
+
+.rates-list__options {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    list-style: none;
+    padding-left: 0 !important;
+}
+
+.rates-list__options__item {
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 11.78px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.19px;
+    /* 137.5% */
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    align-self: stretch;
+}
+
+.rates-list__pro-options__title {
+    color: #8F909E;
+
+    font-size: 8.83px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 10.3px;
+    /* 116.667% */
+    text-align: center;
+}
+
+.rates-list__pro-options__list {
+    list-style: none;
+    padding-left: 0 !important;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+
+}
+
+.rates-list__pro-options__item {
+    color: #FFF;
+    font-size: 11.78px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16.19px;
+    /* 137.5% */
+}
+
+.rates-list__about-item.rate-description {
+    @include font-size(10.3px, 13.25px,400);
+    
+    &:first-child {
+        @include font-size(11.78px, 16.19px, 400);
+
+    }
+}
+
+.rates-link {
+    color: rgba(104, 162, 255, 1);
+
+font-size: 8.83px;
+font-style: normal;
+font-weight: 400;
+line-height: 10.3px;
+
+ a {
+    color: rgba(104, 162, 255, 1);
+ }
+}
+
+
+
+.enterprise__item {
+
+
+    align-items: unset;
+    justify-content: unset;
+    gap: unset;
+    padding-bottom: 72px;
+    @include flex(column, $gap: 50px);
+    
+    @include media-max-md() {
+        padding-bottom: 30px;
+    }
+    @include media-max-s() {
+        padding-bottom: 18px;
+    }
+
+    &__top {
+        @include size(100%);
+        @include flex(row, space-between);
+        
+        @include media-max-md() {
+            @include flex(column, space-between, $gap: 20px);
+        }
+    }
+    &__bot {
+        @include flex(row, $gap: 162px);
+        
+        @include media-max-md() {
+            @include flex(column, $gap: 80px);
+            
+        }
+        @include media-max-s() {
+            @include flex(column, $gap: 20px);
+            
+        }
+    }
+
+    .rate-name { 
+        @include font-size( 30.43px, 1, 800);
+        background: unset !important;
+        -webkit-text-fill-color: unset !important;
+
+    }
+    .rate-description {
+        @include font-size(20.28px, 27.89px, 400);
+    }
+
+    .rates-list__pro-options__item {
+        @include font-size(20px, 27px, 400);
+        @include size(fit-content);
+    }
+
+    .advanced-options {
+        @include max-size(unset);
+    }
+
+    .rates-list__options__item {
+        @include font-size(20.28px, 27.89px, 400);
+    }
+}
+
+.enterprise-button {
+
+    font-family: "RFDewi", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+
+    @include font-size(20.28px, 27.89px, 800);
+
+    width: fit-content;
+
+    border-radius: 30px;
+    border: 1px solid #525252;
+    background: none;;
+    margin-top: auto;
+
+    background-color: #FFFFFF;
+    color: #000;
+
+    transition-duration: 0.3s;
+    transition-property: background-color, border-color;
+}
+
+.enterprise-button:hover {
+    border: 1px solid #0062FF;
+        background: #0062FF;
+}
+
+.rates-banner {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: #0062FF;
+    width: 100%;
+    height: 90px;
+    padding: 0 35px;
+    box-sizing: border-box;
+    
+    @include media-max-s() {
+        padding: 20px;
+        height: unset;
+    }
+}
+
+.rates-banner__title {
+    @extend %font-RFDewiExtended;
+    color: #FFF;
+    font-variant-numeric: lining-nums tabular-nums;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.rates-banner__button {
+    display: flex;
+    width: 201px;
+    padding: 12px 24px 14px 24px;
+
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 30px;
+    border: 1.5px solid rgba(255, 255, 255, 0.20);
+
+    cursor: pointer;
+
+    color: #FFF;
+
+    font-variant-numeric: lining-nums tabular-nums;
+    
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 22px;
+    box-sizing: border-box;
+}
+
+.rates-banner__button > a {
+    color: #FFF !important;
+}
+
+@media (max-width: 1610px) {
+    .rates-container {
+        font-family: "RFDewi";
+        width: 100%;
+    }
+
+    .rates-list {
+        flex-wrap: wrap;
+    }
+
+    .rates-list__item {
+        width: 328px;
+    }
+}
+
+@media (max-width: 982px) {
+    .rates-container {
+        margin: 16px;
+        width: 100%;
+    }
+    
+}
+@media (max-width: 767px) {
+    .rates-container {
+        margin: 16px;
+        width: 100%;
+    }
+
+    .rates-list {
+        flex-wrap: wrap;
+    }
+
+    .rates-list__item {
+        width: 358px;
+    }
+
+    .rates-banner {
+        height: 167px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 22px;
+    }
+
+    .rates-banner__button {
+        width: 310px;
+    }
+}
+
+.new-rate {
+    /* display: block; */
+    @include position(absolute, $top: 0, $right: 0);
+    padding: 2px 5px;
+
+    color: #000;
+
+    @include font-size(9px, 1, 600);
+
+    -webkit-background-clip: unset !important;
+     -webkit-text-fill-color: unset !important;
+
+
+
+    background-color: rgba(252, 149, 73, 1);
+
+    border-radius: 4px;
+
+}
+
+.rates-list__col {
+    width: 100%;
+    max-width: fit-content;
+}
+
+.enterprise__item {
+    width: 100% !important;
+    max-width: 100% !important;
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    background-image: url("../assets/img/gradient-bg.png");
+    background-repeat: no-repeat;
+    background-position: center;
+
+    @include media-max-md() {
+        @include flex(column);
+    }
+}
+
+.rates-list__item:nth-child(1) .rate-name {
+    background: linear-gradient(270deg, #8888FF 52.55%, #FFFFFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rates-list__item:nth-child(2) .rate-name {
+    background: linear-gradient(270deg, #CB88DB -4.55%, #8888FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.rates-list__item:nth-child(3) .rate-name {
+    background: linear-gradient(270deg, rgba(104, 183, 255, 1) -4.55%, #5FCAFA 105.56%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.advanced-options {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    max-width: 426px;
+    width: 100%;
+}
+
+.rates-list__advanced__head {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 7px;
+    gap: 30px;
+}
+
+.rates-list__advanced__head-title {
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 17px;
+
+    &.blue {
+        @include color(rgb(104, 183, 255))
+    }
+}
+
+.rates-list__advanced__head-title.rates-link {
+    color:rgba(104, 183, 255, 1);
+}
+
+.rates-list__advanced__list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 45%;
+}
+
+
+.rates-list__col .rates-list__options {
+    margin-bottom: 0;
+}
+.rates-list__col .rates-list__about {
+    gap: 24px;
+}
+
+.rates-list__col:nth-child(2) {
+    margin-bottom: auto;
+}
+
+
+
+.rates-list__pro-options__title {
+    position: relative;
+
+}
+
+.rates-list__pro-options__title::after,
+.rates-list__pro-options__title::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 28%;
+    height: 1px;
+
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.rates-list__pro-options__title::before {
+    left: 0;
+}
+
+.rates-list__pro-options__title::after {
+    right: 0
+}
+.enterprise__item__bot .rates-list__about.rates-list__col:nth-child(2) {
+    margin-top: -70px;
+}
+@media (max-width: 1610px) {
+
+    .rates-banner__title {
+        max-width: 370px;
+    }
+
+    .enterprise-button {
+        margin-top: unset;
+    }
+
+    .rates-list__about.rates-list__col:nth-child(1) {
+        order: 1;
+    }
+
+    .rates-list__about.rates-list__col:nth-child(2) {
+        order: 3;
+    }
+
+    .rates-list__about.rates-list__col:nth-child(3) {
+        order: 4;
+    }
+
+    .rates-list__about.rates-list__col:nth-child(4) {
+        order: 2;
+    }
+
+    .enterprise__item {
+        gap: 50px 163px;
+    }
+}
+
+@media (max-width: 1024px) {
+ .enterprise__item__bot .rates-list__about.rates-list__col:nth-child(2) {
+        margin-top: unset;
+    }
+}
+@media (max-width: 767px) {
+
+        // .mob {
+        //         margin-bottom: 24px;
+        //     }
+    .rates-list__about.rates-list__col:nth-child(2) {
+        margin-top: 0;
+        order: 2;
+    }
+    
+    .rates-list__about.rates-list__col:nth-child(3) {
+        order: 3;
+    }
+
+    .rates-list__about.rates-list__col:nth-child(4) {
+        order: 4;
+    }
+
+    .enterprise-button {
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .rates-list__col {
+        max-width: 100% !important;
+        box-sizing: border-box;
+    }
+
+    .rates-list__advanced__head-title:first-child {
+        width: 100%;
+        text-align: center;
+        position: relative;
+
+        margin-bottom: 20px;
+    }
+
+    .rates-list__advanced__head-title:first-child::after,
+    .rates-list__advanced__head-title:first-child::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+
+        width: 28%;
+        height: 1px;
+
+        background-color: rgba(255, 255, 255, 0.05);
+    }
+
+    .rates-list__advanced__head-title:first-child::before {
+        left: 0;
+    }
+
+    .rates-list__advanced__head-title:first-child::after {
+        right: 0
+    }
+
+    .rates-list__advanced__list {
+        width: 100% !important;
+    }
+
+    .rate-button {
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+        .new-rate {
+            margin-left: 20px;
+        }
+
+.rate-description {
+    width: 103%;
+}
+
+.rates-list__advanced__head {
+    gap: 0
+}
+.rates-list__advanced__head-title {
+    text-align: unset !important;
+    margin-bottom: 0 !important;
+}
+    .rates-list__advanced__head-title::after,
+    .rates-list__advanced__head-title::before {
+        display: none;
+    }
+
+    .rates-list__advanced__head {
+        margin-bottom: 40px;
+    }
+}
+

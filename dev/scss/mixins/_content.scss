@@ -1,0 +1,46 @@
+@mixin image-wrap($width: null, $height: null, $fit: contain) {
+    @include flex-inline(null, center, center);
+    @include flex-filling($shrink: 0);
+
+    @if $width != null {
+        @include size($width);
+    }
+
+    @if $height != null {
+        @include size(null, $height);
+    }
+
+    picture {
+        @include size(100%, 100%);
+    }
+
+    img,
+    source {
+        @if $fit == contain {
+            @extend %contain-image;
+        }
+
+        @if $fit == cover {
+            @extend %cover-image;
+        }
+    }
+}
+
+@mixin svg-wrap($width: null, $height: null) {
+    @include flex-inline(null, center, center);
+    @include flex-filling($shrink: 0);
+
+    @if $width != null {
+        @include size($width);
+    }
+
+    @if $height != null {
+        @include size(null, $height);
+    }
+
+    svg {
+        @extend %fill-svg;
+
+        @content;
+    }
+}

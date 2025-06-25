@@ -1,0 +1,21 @@
+$Inter: (
+    "Inter-Thin": 100,
+    "Inter-ExtraLight": 200,
+    "Inter-Light": 300,
+    "Inter-Regular": 400,
+    "Inter-Medium": 500,
+    "Inter-SemiBold": 600,
+    "Inter-Bold": 700,
+    "Inter-ExtraBold": 800,
+    "Inter-Black": 900,
+);
+
+@each $name, $value in $Inter {
+    @font-face {
+        font-family: "Inter";
+        src: url("../assets/fonts/Inter/#{$name}.ttf") format("truetype");
+        font-weight: $value;
+        font-style: normal;
+        font-display: swap;
+    }
+}

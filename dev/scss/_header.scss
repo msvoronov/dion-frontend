@@ -1,0 +1,182 @@
+.header {
+  @include bg-color(transparent);
+
+  @include position(absolute, $top: 0);
+  @include transition(background-color);
+  
+  
+  padding: 30px 0 ;
+  z-index: 10;
+  
+  @include media-max-custom(1110px) {
+    background-color: rgba(66, 67, 67, 0.5);
+    padding: 24px 0 ;
+    backdrop-filter: blur(60px);
+  }
+  
+  &.scroll {
+    @include position(fixed, $top: 0);
+    @include bg-color(#111314);
+    
+    @include media-max-custom(1110px) {
+      background-color: rgba(66, 67, 67, 0.5);
+
+    }
+  }
+  &__logo {
+    @include position(relative);
+    z-index: 1;
+  }
+
+  &__wrap {
+    @include flex(row, space-between, center);
+      margin: 40px auto 0px;
+      padding: 0 24px;
+    @include max-size(1216px);
+  }
+  &__nav {
+    @include flex(row, null, center, 41px);
+
+    @include media-max-custom(1110px) {
+
+      display: none;
+    }
+
+    &__item {
+      @include font-size(14px, 105%, 600);
+      @include color(#fff);
+
+    }
+  }
+
+  .burger {
+    display: none;
+
+
+    &.open {
+      .burger__menu {
+
+        pointer-events: all;
+        &__overlay {
+          opacity: 1;
+        }
+        &__wrap {
+          transform: translateY(80px);
+
+        }
+      }
+
+      .burger {
+        &__btn {
+          span {
+            &:last-child,
+            &:first-child {
+              @include size(100%);
+              transform: translateY(-50%) rotate();
+              top: 50%;
+              opacity: 0;
+            }
+
+            &:nth-child(2){
+              transform: rotate(-45deg);
+            }
+            &:nth-child(3) {
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+    }
+
+
+    @include media-max-custom(1110px) {
+      display: block;
+    }
+
+
+    &__btn {
+      @include position(relative);
+      z-index: 1;
+      @include size(32px, 32px);
+      padding: 7px 4.5px;
+      cursor: pointer;
+      &__wrap {
+        @include position(relative);
+        @include size(100%, 100%);
+
+      }
+
+
+
+      @include hover() {
+        span {
+          &:last-child {
+            @include size(100%);
+          }
+        }
+      }
+
+      span {
+        @include size(100%, 2px);
+        @include bg-color(#fff);
+        @include transition(all);
+        border-radius: 1px;
+
+        &:first-child {
+          @include position(absolute, $top: 0, $right: 0);
+
+        }
+        &:nth-child(3),
+        &:nth-child(2) {
+          @include position(absolute, $top: 50%, $right: 0);
+          transform: translateY(-50%);
+
+        }
+        &:last-child {
+          @include position(absolute, $bottom: 0, $right: 0);
+          @include size(70%);
+          margin-left: auto;
+
+        }
+      }
+    }
+
+    &__menu {
+      @include position(fixed, $top: 80px, $left: 0);
+      @include size(100%, 100vh);
+      pointer-events: none;
+      
+      &__overlay {
+        @include position(absolute, $top: 0, $left: 0);
+        @include size(100%, 100%);
+        background-color: rgb(0, 0, 0, 0.5);
+        opacity: 0;
+      }
+
+      &__wrap {
+        transform: translateY(-100%);
+        top: -80px;
+        @include position(relative);
+        @include transition(transform);
+        @include flex(column, null, center, $gap: 20px);
+        @include bg-color(#111314);
+        padding: 30px 20px 30px;
+
+        &__item {
+          @include font-size(24px, 1, 400);
+        }
+      }
+    }
+  }
+}
+
+
+body.open .header {
+  @include bg-color(#111314)
+}
+
+@media (max-width: 1023px) {
+  .header__wrap {
+    margin-top: 0px;
+  }
+}

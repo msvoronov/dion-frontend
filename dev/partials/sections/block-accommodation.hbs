@@ -1,0 +1,16 @@
+<section class="block-accommodation" id="accommodation">
+  <div class="container">
+    {{> shared/section-title}}
+    <div class="block-accommodation__wrap">
+      {{#each list}}
+      <div class="block-accommodation__item">
+        <div class="block-accommodation__item__icon">
+          {{{getSvg src=img}}}
+        </div>
+        <div class="block-accommodation__item__label">{{label}}</div>
+        <div class="block-accommodation__item__descr">{{{descr}}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

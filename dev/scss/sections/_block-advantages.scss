@@ -1,0 +1,54 @@
+.block-advantages {
+  &__wrap {
+    @include flex($gap: 32px);
+    @include flex-wrap();
+  }
+
+  &__item {
+    @include item-size(3, 32px);
+    
+    @include bg-color(#191C1E);
+    
+    padding: 30px;
+    
+    border-radius: 10px 10px 95px 10px;
+    
+
+    &:first-child {
+      .block-advantages__item__label {
+        line-height: 56px;
+      }
+    }
+
+    &:last-child {
+      max-width: calc((((100%* 2) - 64px) / 3));
+
+      @include media-max-md() {
+        @include item-size(2, 32px);
+      }
+      @include media-max-s() {
+        @include max-size(100%);
+      }
+    }
+    
+    @include media-max-md() {
+      @include item-size(2, 32px);
+    }
+
+    @include media-max-s() {
+      @include max-size(100%);
+    }
+
+
+    &__label {
+      @include font-size(30px, 34px, 600);
+
+      margin-bottom: 40px
+      
+    }
+    &__descr {
+      @include font-size(18px, 24px, 400);
+
+    }
+  }
+}

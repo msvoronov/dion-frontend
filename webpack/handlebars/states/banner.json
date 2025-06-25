@@ -1,0 +1,125 @@
+{
+  "main": {
+    "bannerDescr": "Выбираем самые знаковые проекты<br> Холдинга по итогам 2024 года",
+    "img": "banner.png",
+    
+    "link": "Заявить проект",
+    "hasLogo": true
+  },
+  "banner1": {
+    "className": "content",
+    "titleLabel": "Сила улучшений",
+    "bannerDescr": "Проекты, которые внесли существенный вклад в&nbsp;автоматизацию или эффективное изменение внутренних процессов компании",
+    "img": "banner__1.png",
+    
+    "link": "Заявить проект",
+    "tags": [
+      {
+        "title":  "Автоматизация года",
+        "href": "#avtomatizatsiya-goda"
+      },
+      {
+        "title":  "Бизнес-процесс по-новому",
+        "href": "#biznes-protsess-po-novomu"
+      }
+    ],
+    "href": "/"
+  },
+  "banner2": {
+    "className": "content",
+    "titleLabel": "Покоряя сердца",
+    "bannerDescr": "Проекты, которые объединяют людей вокруг бренда Т1.  Сотрудников. Кандидатов. Партнеров.",
+    "img": "banner__2.png",
+    
+    "link": "Заявить проект",
+    "tags": [
+      {
+        "title": "Проекты для внешней аудитории",
+        "href": "#proekty-dlya-vneshney-auditorii"
+      },
+      {
+        "title": "Проекты для сотрудников",
+        "href": "#proekty-dlya-sotrudnikov"
+      }
+    ],
+    "href": "/"
+  },
+  "banner3": {
+    "className": "content",
+    "titleLabel": "Самый масштабный проект",
+        "bannerDescr": "Крупные проекты, которые оказали большое влияние на развитие бизнеса компании ",
+    "img": "banner__3.png",
+    
+    "link": "Заявить проект",
+    "tags": [
+  {
+    "title": "Для ВТБ и экосистемы",
+    "href": "#dlya-vtb-i-ekosistemy"
+  },
+  {
+    "title": "Для бизнеса",
+    "href": "#dlya-biznesa"
+  },
+  {
+    "title": "Для государства",
+    "href": "#dlya-gosudarstva"
+  }
+],
+    "href": "/"
+  },
+  "banner4": {
+    "className": "content",
+    "titleLabel": "На пике инноваций",
+        "bannerDescr": "Инновационные проекты/ продукты/разработки, которые задают тренды на ИТ-рынке",
+    "img": "banner__4.png",
+    
+    "link": "Заявить проект",
+    "tags": [
+  {
+    "title": "Для ВТБ и экосистемы",
+    "href": "#dlya-vtb-i-ekosistemy"
+  },
+  {
+    "title": "Для бизнеса",
+    "href": "#dlya-biznesa"
+  },
+  {
+    "title": "Для государства",
+    "href": "#dlya-gosudarstva"
+  }
+],
+    "href": "/"
+  },
+  "banner5": {
+    "className": "content",
+    "titleLabel": "Сделка года",
+        "bannerDescr": "Максимально успешные коммерческие проекты",
+    "img": "banner__5.png",
+    
+    "link": "Заявить проект",
+    "tags": [
+  {
+    "title": "Поставка",
+    "href": "#postavka"
+  },
+  {
+    "title": "Консалтинг и сервис",
+    "href": "#konsalting-i-servis"
+  },
+  {
+    "title": "Собственные решения",
+    "href": "#sobstvennye-resheniya"
+  }
+],
+    "href": "/"
+  },
+  "banner6": {
+    "className": "content",
+    "titleLabel": "Новые рынки и территории",
+        "bannerDescr": "Проекты, которые открыли для Холдинга перспективы на новых рынках и территориях",
+    "img": "banner__6.png",
+    
+    "link": "Заявить проект",
+    "href": "/"
+  }
+}

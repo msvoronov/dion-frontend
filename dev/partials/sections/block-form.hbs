@@ -1,0 +1,103 @@
+<section class="section section-form" id="form">
+  <div class="container">
+    <div class="form__success js-form-success">
+      <div class="form__success__wrap">
+        <div class="form__success__content js-form-success">
+          <div class="tn-form__errorbox-close js-close">
+            <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div>
+            <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div>
+          </div>
+          <div class="form__error__msg">Спасибо! Данные успешно отправлены.</div>
+        </div>
+      </div>
+    </div>
+    <div class="form__error js-form-error">
+      <div class="tn-form__errorbox-close js-close">
+        <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-left"></div>
+        <div class="tn-form__errorbox-close-line tn-form__errorbox-close-line-right"></div>
+      </div>
+      <div class="js-form-error-msg form__error__msg"></div>
+    </div>
+    <div class="form js-b-form">
+      <div class="form__bg__wrap">
+        <div class="form__bg">
+          {{{getImg src="form-bg.png"}}}
+        </div>
+      </div>
+      <div class="form__title">Заполните заявку на&nbsp;тестирование DION</div>
+      <form action="/api/form-api/" class="form__form js-ajax-form js-b-form__form js-form-validate" data-ym-target-name="enterprise_form_1 enterprise_sendform_test" data-tmr-target-name="send_test_enterprise">
+        <div class="form__wrap">
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Как вас зовут*</span>
+            <input type="text" name="name" class="form__field__input js-b-input__field" data-max-length="60" placeholder="Представьтесь"
+              data-cyrLat-name data-required>
+            <span class="alert-input-text"></span>
+          </label>
+
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Телефон<span class="required">*</span></span>
+            <input type="tel" name="tel" class="form__field__input js-b-input__field js-phone-input" data-required>
+            <span class="alert-input-text"></span>
+          </label>
+
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Департамент*</span>
+            <input type="text" name="department" placeholder="Укажите департамент" class="form__field__input js-b-input__field" data-max-length="60" data-required>
+            <span class="alert-input-text"></span>
+          </label>
+
+          <label class="form__field js-b-select">
+            <span class="form__field__label">Субъект*</span>
+            <div class="form__field__select_wrap">
+              <input type="hidden" name="subject" value="Юридическое лицо" class="js-b-select__input" readonly data-required>
+              <div class="form__field__select_main js-b-select__field"><span>Юридическое лицо</span></div>
+              <div class="form__field__select_options js-b-select__options">
+                <div class="form__field__select_option">Юридическое лицо</div>
+                <div class="form__field__select_option">Физическое лицо</div>
+              </div>
+            </div>
+            <span class="alert-input-text"></span>
+            <div class="form__field__help">DION – платформа корпоративных коммуникаций и доступна только для юридических лиц</div>
+          </label>
+          
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Потенциальное количество пользователей*</span>
+            <input type="text" name="count" class="form__field__input js-b-input__field" placeholder="Укажите количество" data-numbers-max-length="5" data-required>
+            <span class="alert-input-text"></span>
+          </label>
+          
+          <button type="submit" class="btn js-b-form-submit js-button" data-ym-target-name="enterprise_clickform_test">Отправить заявку</button>
+
+          <label class="form__field js-b-input">
+          <span class="form__field__label">Компания*</span>
+          <input type="text" name="company" placeholder="Название компании" class="form__field__input js-b-input__field" data-required>
+          <span class="alert-input-text"></span>
+          </label>
+
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Корпоративная почта*</span>
+            <input type="email" name="email" data-blacklist="@yandex.ru, @mail.ru, @gmail.com, @hotmail.com, @outlook.com, @moscowmail.com, @sibnet.ru, @ya.ru, @icloud.com, @rambler.ru, @Yahoo.com" placeholder="example@company.ru" class="form__field__input js-b-input__field" data-email data-required>
+            <span class="alert-input-text"></span>
+            <div class="form__field__help">Получение DION на тестирование недоступно для адресов<br>@yandex.ru, @gmail.com, @mail.ru и прочих личных доменов.</div>
+          </label>
+        </div>
+
+        <div class="form__checkbox__wrap ">
+          <label class="form__checkbox">
+            <input type="checkbox" name="privacy-policy" class="form__checkbox__input js-b-input__field" data-required>
+            <span class="form__checkbox__holder"></span>
+            <span class="form__checkbox__label">Нажимая «Отправить» я предоставляю согласие на <a
+                href="/pdfs/dion-SOPD-obrashenie.pdf">обработку персональных данных</a></span>
+            <span class="alert-input-text"></span>
+          </label>
+          <label class="form__checkbox">
+            <input type="checkbox" name="addv" class="form__checkbox__input js-b-input__field">
+            <span class="form__checkbox__holder"></span>
+            <span class="form__checkbox__label">Я согласен на <a href="/pdfs/dion-SOPD-reklama.pdf">получение рекламы</a></span>
+            <span class="alert-input-text"></span>
+          </label>
+        </div>
+      </form>
+    </div>
+  </div>
+</section>

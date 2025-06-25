@@ -1,0 +1,148 @@
+{
+  "step_1": {
+    "title": "Номинации и критерии оценки проектов",
+    "list": [
+      {
+        "title": "Самый масштабный проект",
+        "descr": "Крупные проекты, которые оказали большое влияние на развитие бизнеса компании ",
+        "img": "nomination/nomination__1.png",
+        "target": "nomination-1"
+      },
+      {
+        "title": "На пике инноваций",
+        "descr": "Инновационные проекты/продукты/разработки, которые задают тренды на ИТ-рынке",
+        "img": "nomination/nomination__2.png",
+        "target": "nomination-2"
+      },
+      {
+        "title": "Сделка года",
+        "descr": "Максимально успешные коммерческие проекты",
+        "img": "nomination/nomination__3.png",
+        "target": "nomination-3"
+      },
+      {
+        "title": "Новые рынки и территории",
+        "descr": "Проекты, которые открыли для холдинга перспективы на новых рынках и территориях",
+        "img": "nomination/nomination__4.png",
+        "target": "nomination-4"
+      },
+      {
+        "title": "Сила улучшений",
+        "descr": "Проекты, которые внесли существенный вклад в автоматизацию или эффективное изменение внутренних процессов компании",
+        "img": "nomination/nomination__5.png",
+        "target": "nomination-5"
+      },
+      {
+        "title": "Покоряя сердца",
+        "descr": "Проекты, которые объединяют людей вокруг бренда Т1.  Сотрудников. Кандидатов. Партнеров.",
+        "img": "nomination/nomination__6.png",
+        "target": "nomination-6"
+      }
+    ]
+  },
+  "step_2": {
+    "title": "Номинации и проекты",
+    "list": [
+       {
+          "title": "Самый масштабный проект",
+          "descr": "Крупные проекты, которые оказали большое влияние на развитие бизнеса компании",
+          "img": "nomination/nomination__1.png",
+          "target": "nomination-1",
+          "href": "/samyy-masshtabnyy-proyekt"
+      },
+      {
+          "title": "На пике инноваций",
+          "descr": "Инновационные проекты/продукты/разработки, которые задают тренды на ИТ-рынке",
+          "img": "nomination/nomination__2.png",
+          "target": "nomination-2",
+          "href": "/na-pike-innovatsiy"
+      },
+      {
+          "title": "Сделка года",
+          "descr": "Максимально успешные коммерческие проекты",
+          "img": "nomination/nomination__3.png",
+          "target": "nomination-3",
+          "href": "/sdelka-goda"
+      },
+      {
+          "title": "Новые рынки и территории",
+          "descr": "Проекты, которые открыли для холдинга перспективы на новых рынках и территориях",
+          "img": "nomination/nomination__4.png",
+          "target": "nomination-4",
+          "href": "/novye-rynki-i-territorii"
+      },
+      {
+          "title": "Сила улучшений",
+          "descr": "Проекты, которые внесли существенный вклад в автоматизацию или эффективное изменение внутренних процессов компании",
+          "img": "nomination/nomination__5.png",
+          "target": "nomination-5",
+          "href": "/sila-uluchsheniy"
+      },
+      {
+          "title": "Покоряя сердца",
+          "descr": "Проекты, которые объединяют людей вокруг бренда Т1. Сотрудников. Кандидатов. Партнеров.",
+          "img": "nomination/nomination__6.png",
+          "target": "nomination-6",
+          "href": "/pokoryaya-serdtsa"
+      }
+    ]
+  },
+  "step_3_1": {
+    "title": "Голосовать за проекты в номинации",
+    "list": [
+            {
+        "title": "Сила улучшений",
+        "descr": "Проекты, которые внесли существенный вклад в автоматизацию или эффективное изменение внутренних процессов компании",
+        "img": "nomination/nomination__5.png",
+        "target": "nomination-5",
+        "href": "/sila-uluchsheniy",
+        "btnLabel": "Голосовать за проекты"
+      },
+      {
+        "title": "Покоряя сердца",
+        "descr": "Проекты, которые объединяют людей вокруг бренда Т1. Сотрудников. Кандидатов. Партнеров.",
+        "img": "nomination/nomination__6.png",
+        "target": "nomination-6",
+        "href": "/pokoryaya-serdtsa",
+        "btnLabel": "Голосовать за проекты"
+      }
+    ]
+  },
+  "step_3_2": {
+    "title": "Номинации и проекты",
+    "list": [
+      {
+        "title": "Самый масштабный проект",
+        "descr": "Крупные проекты, которые оказали большое влияние на развитие бизнеса компании",
+        "img": "nomination/nomination__1.png",
+        "target": "nomination-1",
+        "href": "/samyy-masshtabnyy-proyekt",
+        "btnLabel": "Смотреть проекты"
+      },
+      {
+        "title": "На пике инноваций",
+        "descr": "Инновационные проекты/продукты/разработки, которые задают тренды на ИТ-рынке",
+        "img": "nomination/nomination__2.png",
+        "target": "nomination-2",
+        "href": "/na-pike-innovatsiy",
+        "btnLabel": "Смотреть проекты"
+      },
+      {
+        "title": "Сделка года",
+        "descr": "Максимально успешные коммерческие проекты",
+        "img": "nomination/nomination__3.png",
+        "target": "nomination-3",
+        "href": "/sdelka-goda",
+        "btnLabel": "Смотреть проекты"
+      },
+      {
+        "title": "Новые рынки и территории",
+        "descr": "Проекты, которые открыли для холдинга перспективы на новых рынках и территориях",
+        "img": "nomination/nomination__4.png",
+        "target": "nomination-4",
+        "href": "/novye-rynki-i-territorii",
+        "btnLabel": "Смотреть проекты"
+      }
+    ]
+  }
+}

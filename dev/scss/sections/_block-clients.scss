@@ -1,0 +1,39 @@
+.block-clients {
+  &__wrap {
+    @include flex($gap: 100px);
+    @include flex-wrap();
+    
+    @include media-max-md() {
+      @include flex($gap: 40px);
+
+    }
+  }
+
+  &__item {
+    @include item-size(3, 100px);
+    
+    @include flex(column, space-between);
+    
+    @include media-max-md() {
+      @include item-size(2, 40px);
+      
+    }
+    @include media-max-s() {
+      @include max-size(100%);
+      
+      @include flex(column, center, center);
+
+    }
+
+    &__label,
+    &__descr {
+      @include font-size(18px, 24px, 600);
+    }
+
+    &__img {
+      margin-bottom: 30px;
+    }
+  }
+
+
+}

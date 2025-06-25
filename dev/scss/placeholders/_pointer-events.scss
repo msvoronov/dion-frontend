@@ -1,0 +1,25 @@
+%auto-user-select {
+    user-select: auto;
+}
+
+%none-user-select {
+    user-select: none;
+}
+
+%none-pointer-events {
+    pointer-events: none;
+}
+
+%all-pointer-events {
+    pointer-events: all;
+}
+
+%none-events {
+    @extend %none-user-select;
+    @extend %none-pointer-events;
+}
+
+%all-events {
+    @extend %auto-user-select;
+    @extend %all-pointer-events;
+}

@@ -1,0 +1,21 @@
+$InterTight: (
+    "InterTight-Thin": 100,
+    "InterTight-ExtraLight": 200,
+    "InterTight-Light": 300,
+    "InterTight-Regular": 400,
+    "InterTight-Medium": 500,
+    "InterTight-SemiBold": 600,
+    "InterTight-Bold": 700,
+    "InterTight-ExtraBold": 800,
+    "InterTight-Black": 900,
+);
+
+@each $name, $value in $InterTight {
+    @font-face {
+        font-family: "InterTight";
+        src: url("../assets/fonts/InterTight/#{$name}.ttf") format("truetype");
+        font-weight: $value;
+        font-style: normal;
+        font-display: swap;
+    }
+}

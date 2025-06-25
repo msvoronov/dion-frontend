@@ -1,0 +1,26 @@
+.section-title {
+  @extend %font-RFDewiExtended;
+  @include font-size(45px, 56px, 800);
+  
+    @include media-max-md() {
+      @include font-size(32px, 1, 800);
+      
+      
+      margin-bottom: 40px;
+    }
+    @include media-max-md() {
+      padding-left: 43px;
+    }
+
+  margin-bottom: 88px;
+
+  &__title {
+    @include font-size(45px, 56px, 800);
+
+    @include media-max-md() {
+      @include font-size(32px, 1, 800);
+      
+      
+    }
+  }
+}

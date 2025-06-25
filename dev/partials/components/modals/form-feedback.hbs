@@ -1,0 +1,49 @@
+{{#> components/modal-wrap id='modal-form-feedback' classNameModal="modal-form-feedback" }}
+
+<div class="modal-form js-b-form">
+  <div class="modal-form__title">Поддержка</div>
+   <form action="/api/form-api/" class="modal-form__form js-ajax-form js-b-form__form js-form-validate js-support-form">
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Имя*</span>
+      <input type="text" name="name" class="form__field__input js-b-input__field" data-max-length="60"
+        placeholder="Представьтесь" data-cyrLat-name data-required>
+      <span class="alert-input-text"></span>
+    </label>
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Телефон</span>
+      <input type="tel" name="tel" class="form__field__input js-b-input__field js-phone-input">
+      <span class="alert-input-text"></span>
+    </label>
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Email*</span>
+      <input type="email" name="email"
+        
+        placeholder="example@company.ru" class="form__field__input js-b-input__field" data-email data-required>
+      <span class="alert-input-text"></span>
+
+    </label>
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Задать вопрос</span>
+      <input type="email" name="comment"
+       class="form__field__input js-b-input__field" data-email data-required>
+      <span class="alert-input-text"></span>
+
+    </label>
+    <div class="form__checkbox__wrap ">
+      <label class="form__checkbox">
+        <input type="checkbox" name="privacy-policy" class="form__checkbox__input" data-required>
+        <span class="form__checkbox__holder"></span>
+        <span class="form__checkbox__label">Нажимая «Задать вопрос» я предоставляю согласие на <a href="/pdfs/dion-SOPD-obrashenie.pdf">обработку персональных данных</a></span>
+        <span class="alert-input-text"></span>
+      </label>
+      <label class="form__checkbox">
+        <input type="checkbox" name="addv" class="form__checkbox__input">
+        <span class="form__checkbox__holder"></span>
+        <span class="form__checkbox__label">Я согласен на <a href="/pdfs/dion-SOPD-reklama.pdf">получение рекламы</a></span>
+        <span class="alert-input-text"></span>
+      </label>
+    </div>
+    <div class="modal-form__btn js-b-form-submit">Задать вопрос</div>
+  </form>
+</div>
+{{/components/modal-wrap}}

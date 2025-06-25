@@ -1,0 +1,36 @@
+%clickable {
+    @extend %cursor-pointer;
+
+    @include transition(opacity);
+    @include hover {
+        opacity: 0.6;
+    }
+}
+
+%disabled {
+    @extend %none-events;
+
+    opacity: 0.6;
+}
+
+%hidden {
+    @extend %none-events;
+
+    opacity: 0;
+}
+
+%visable {
+    @extend %all-events;
+
+    opacity: 1;
+}
+
+%clickable-yellow {
+    @extend %cursor-pointer;
+
+    @include transition(color);
+}
+
+%display-none {
+    display: none;
+}

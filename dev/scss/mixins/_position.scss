@@ -1,0 +1,45 @@
+@mixin position(
+    $position: null,
+    $top: null,
+    $bottom: null,
+    $left: null,
+    $right: null,
+    $inline: null,
+    $block: null,
+    $all: null,
+    $imp: null
+) {
+    @if $position != null {
+        position: $position;
+    }
+
+    @if $top != null {
+        top: $top;
+    }
+
+    @if $bottom != null {
+        bottom: $bottom;
+    }
+
+    @if $left != null {
+        left: $left;
+    }
+
+    @if $right != null {
+        right: $right;
+    }
+
+    @if $inline != null {
+        left: $all;
+        right: $all;
+    }
+
+    @if $block != null {
+        top: $all;
+        bottom: $all;
+    }
+
+    @if $all != null {
+        inset: $all;
+    }
+}

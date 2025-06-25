@@ -1,0 +1,421 @@
+{
+    "sections": [
+      {
+        "blockTitle": "Самый масштабный проект",
+        "descr": "Крупные проекты, которые оказали большое влияние на развитие бизнеса компании ",
+        "classNames": "row-2",
+        "link": "/samyy-masshtabnyy-proyekt",
+        "list": [
+          {
+            "tag": "Для ВТБ и экосистемы",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ]
+          },
+          {
+            "tag": "Для бизнеса",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Для госсектора",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          }
+        ]
+      },
+      {
+        "blockTitle": "На пике инноваций",
+        "descr": "Инновационные проекты/продукты/разработки, которые задают тренды на ИТ-рынке",
+        "classNames": "row-2",
+        "link": "/na-pike-innovatsiy",
+        "list": [
+          {
+            "tag": "Для ВТБ и экосистемы",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Для бизнеса",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> : Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc "
+          },
+          {
+            "tag": "Для госсектора",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          }
+        ]
+      },
+      {
+        "blockTitle": "Сделка года",
+        "descr": "Максимально успешные коммерческие проекты",
+        "classNames": "row-2",
+        "link": "/sdelka-goda",
+        "list": [
+          {
+            "tag": "Поставка оборудования",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Консалтинг и сервис",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> : Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc "
+          },
+          {
+            "tag": "Собственные продукты",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Собственные продукты",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          }
+        ]
+      },
+      {
+        "blockTitle": "Новые рынки и территории",
+        "descr": "Проекты, которые открыли для холдинга перспективы на новых рынках и территориях",
+        "link": "/novye-rynki-i-territorii",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          }
+        ]
+      },
+      {
+        "blockTitle": "Сила улучшений",
+        "descr": "Проекты, которые внесли существенный вклад в автоматизацию или эффективное изменение внутренних процессов компании",
+        "link": "/sila-uluchsheniy",
+        "list": [
+          {
+            "tag": "Автоматизация года",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Автоматизация года",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Бизнес-процесс по-новому",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> : Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc "
+          }
+        ]
+      },
+      {
+        "blockTitle": "Покоряя сердца",
+        "descr": "Проекты, которые объединяют людей вокруг бренда Т1. Сотрудников. Кандидатов. Партнеров.",
+        "link": "/pokoryaya-serdtsa",
+        "list": [
+          {
+            "tag": "Автоматизация года",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus."
+          },
+          {
+            "tag": "Бизнес-процесс по-новому",
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "slides": [
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              },
+              {
+                "title": "Цитата от Лидера проекта",
+                "img": "slide__1.png"
+              }
+            ],
+            "text": "<strong>Цель проекта:</strong> : Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc "
+          }
+        ]
+      }
+    ]
+}

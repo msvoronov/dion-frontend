@@ -1,0 +1,271 @@
+$site-breakpoints: (
+    min: 320px,
+    mobile: 820px,
+    middle: 1200px,
+    full: 1400px,
+    big: 1900px,
+    max: 3200px,
+);
+
+$font-size-html: (
+    min: 12px,
+    mobile: 16px,
+    middle: 1.39vw,
+    full: 1.39vw,
+    //20px
+    big: 1.39vw,
+    //22px
+    max: 34.3667px,
+    //22px
+);
+html {
+    // @extend %overflow-scroll-y;
+
+    // -ms-overflow-style: none;
+    // overflow: -moz-scrollbars-none;
+    // overscroll-behavior: none;
+
+    // &::-webkit-scrollbar {
+    //     @include size(0);
+    // }
+}
+
+.br-mob {
+    display: none;
+
+    @include media-max-s() {
+        display: block;
+    }
+}
+.br-tab {
+    display: none;
+    
+    @include media-max-md() {
+        display: block;
+    }
+    
+    @include media-max-s() {
+        display: none;
+    }
+}
+.br-desk {
+    display: block;
+
+    @include media-max-md() {
+        display: none;
+    }
+}
+
+
+
+body>font.tablebodytext {
+    display: none !important;
+}
+
+.br-desk {
+  display: block;
+  
+  @include media-max-md() {
+    display: none;
+  }
+}
+.b-socials__item {
+    @include media-max-s() {
+        margin-right: 0 !important
+    }
+}
+.b-footer__top-bottom-left>.b-socials {
+    @include media-max-s() {
+        @include flex(row, flex-start !important, $gap: 8px !important);
+    }
+}
+
+.br-tab {
+    display: none;
+    
+    @include media-max-md() {
+      display: block;
+    }
+    @include media-max-s() {
+        display: none;
+    }
+}
+
+.br-mob {
+    display: none;
+    
+    @include media-max-s() {
+      display: block;
+  }
+}
+
+.iti {
+    @include size(100%);
+
+    &__country-name {
+        @include color(#000);
+    }
+}
+
+html {
+
+    // -ms-overflow-style: none;
+    // overflow: -moz-scrollbars-none;
+    // overscroll-behavior: none;
+
+    @each $key, $val in $site-breakpoints {
+        @media (min-width: $val) {
+            font-size: map-get($font-size-html, $key);
+        }
+    }
+
+    // &::-webkit-scrollbar {
+    //     @include size(0);
+    // }
+
+    &.scroll-disable {
+        overflow: hidden;
+    }
+}
+
+body {
+    @extend %font-RFDewi;
+    @extend %overflow-scroll-y;
+
+    // @include font-size(14px, 1, 400);
+
+    scroll-behavior: smooth;
+    overscroll-behavior: none;
+
+    @include bg-color(#111314);
+    @include color(#FFFFFF);
+
+    margin: 0 auto;
+
+    &.home-page {
+        @extend %overflow-visible;
+    }
+}
+
+.behavior-scroll {
+    scroll-behavior: smooth;
+}
+
+.locked-scroll {
+    touch-action: none !important;
+    overflow: hidden !important;
+}
+
+h1 {
+    @include size(100%);
+    @include font-size(4rem, 0.92, 500);
+
+    margin: 0 0 0.5em;
+
+    word-wrap: break-word;
+    word-break: break-word;
+
+    letter-spacing: -.04em;
+
+    @include media-max-s() {
+        @include font-size(3.5rem, 1, 500);
+        letter-spacing: -1.68px;
+    }
+}
+
+.c-space {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 2.4rem;
+}
+
+hr {
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+    width: 100%;
+    margin: 0 0 1em;
+    border: none;
+    border-bottom: 1px solid #000;
+}
+
+.b-layout__footer {
+    margin-top: unset !important;
+    padding: 48px 0 !important;
+}
+
+#cboxLoadedContent,
+.ps--active-y {
+    scroll-behavior: unset;
+}
+
+.clipboard-msg {
+    @include position(fixed, $left: 50%, $bottom: 20px);
+    @include font-size(1rem, 1.4, 500);
+
+    @include bg-color(#fff);
+    @include color($blue-dark);
+
+    @include transition(opacity);
+    padding: 6px 10px;
+    border-radius: 12px;
+    box-shadow: 2px 3px 3px #0000005e;
+    z-index: 100000;
+    pointer-events: none;
+    opacity: 0;
+
+    animation: fadeOut 2s ease-in-out forwards;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    90% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
+.b-block-news {
+    &__item-date {
+        margin-right: 132px;
+    }
+}
+
+
+.b-block-internship-main {
+
+    @media (min-width: 491px) and (max-width: 960px) {
+        &__item {
+            width: calc(50% - 0.8rem) !important;
+            padding-bottom: 16px;
+        }
+    }
+
+    @media (max-width: 490px) {
+        &__item {
+            width: calc(100% - 0.8rem) !important;
+            padding-bottom: 16px;
+        }
+    }
+}
+
+a.link-underline {
+    text-decoration: underline !important;
+}
+
+.divider {
+    margin-bottom: 16px;
+    @include size(100%, 1px);
+    @include bg-color(#000);
+}

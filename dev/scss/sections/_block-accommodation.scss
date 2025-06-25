@@ -1,0 +1,37 @@
+.block-accommodation {
+  &__wrap {
+    @include flex($gap: 32px);
+    @include flex-wrap();
+    
+    @include media-max-md() {
+      @include flex($gap: 20px);
+    }
+  }
+
+  &__item {
+    @include item-size(3, 32px);
+    @include flex(column, $gap: 25px);
+    
+    @include bg-color(#191C1E);
+    
+    border-radius: 10px;
+    padding: 30px;
+    
+    @include media-max-md() {
+      padding: 20px;
+      @include item-size(3, 20px);
+
+    }
+    @include media-max-s() {
+      @include max-size(100%);
+    }
+
+
+    &__label {
+      @include font-size(28px, 32px, 600);
+    }
+    &__descr {
+      @include font-size(18px, 24px, 400);
+    }
+  }
+}

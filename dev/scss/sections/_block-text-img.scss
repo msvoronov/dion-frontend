@@ -1,0 +1,42 @@
+.block-text-img {
+
+  &__wrap {
+    @include flex($gap: 110px);
+    
+    @include media-max-md() {
+
+      @include flex(column, $gap: 32px);
+    }
+  }
+  &__title {
+    @extend %font-RFDewiExtended;
+    @include font-size(45px, 56px, 800);
+    
+    margin-bottom: 39px;
+    @include media-max-md() {
+      @include font-size(32px, 1, 800);
+    }
+    @include media-max-s() {
+      padding-left: 43px
+    }
+  }
+
+  &__text {
+    @include font-size(24px, 32px, 400);
+    
+    @include media-max-md() {
+      @include font-size(16px, 22px, 400);
+    }
+
+  }
+
+  &__img {
+    @include max-size(482px);
+    @include image-wrap(100%);
+    
+    
+    @include media-max-md() {
+      @include max-size(100%);
+    }
+  }
+}

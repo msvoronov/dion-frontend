@@ -1,0 +1,40 @@
+{
+  "list": [
+    {
+      "label": "Награды",
+      "href": "#awards"
+    },
+    {
+      "label": "Преимущества",
+      "href": "#advantages"
+    },
+    {
+      "label": "Клиенты",
+      "href": "#clients"
+    },
+    {
+      "label": "Возможности",
+      "href": "#possibilities"
+    },
+    {
+      "label": "Размещение",
+      "href": "#accommodation"
+    },
+    {
+      "label": "ПАК",
+      "href": "#pak"
+    },
+    {
+      "label": "Видео-демо",
+      "href": "#video"
+    },
+    {
+      "label": "Тарифы",
+      "href": "#rates"
+    },
+    {
+      "label": "Контакты",
+      "href": "#contacts"
+    }
+  ]
+}

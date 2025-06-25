@@ -1,0 +1,17 @@
+<section class="block-grid" id="grid">
+  <div class="container">
+    <h2 class="block-grid__title">{{{title}}}</h2>
+    <div class="block-grid__descr">{{{descr}}}</div>
+    <div class="block-grid__wrap">
+      {{#each list}}
+      <div class="block-grid__item">
+        <div class="block-grid__item__bg">
+          {{{getPicture src=img md=md s=s}}}
+        </div>
+        <div class="block-grid__item__label">{{label}}</div>
+        <div class="block-grid__item__descr">{{{descr}}}</div>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</section>

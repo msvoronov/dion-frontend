@@ -1,0 +1,58 @@
+{{#> layouts/main title='Sitemap' }}
+
+{{#with this.store.enterpriseBullets}}
+  <div class="scroll-bullets js-scroll-bullets">
+    {{#each list}}
+    <a href="{{href}}" class="scroll-bullets__bullet js-bullet"></a>
+    {{/each}}
+  </div>
+{{/with}}
+
+{{> sections/block-hero}}
+{{> sections/block-web-banner}}
+{{#with this.store.blockGrid}}
+  {{> sections/block-grid}}
+{{/with}}
+{{#with this.store.blockAccommodation}}
+  {{> sections/block-accommodation}}
+{{/with}}
+
+{{#with this.store.blockWhyDion}}
+{{> sections/block-text-img}}
+{{/with}}
+
+{{#with this.store.blockСlients}}
+{{> sections/block-clients}}
+{{/with}}
+
+{{#with this.store.blockAdvantages}}
+{{> sections/block-advantages}}
+{{/with}}
+
+
+{{#with this.store.blockAwards}}
+{{> sections/block-awards }}
+{{/with}}
+
+{{#with this.store.blockPossibilities}}
+  {{> sections/block-possibilities}}
+{{/with}}
+
+{{#with this.store.blockСomplex}}
+{{> sections/block-complex }}
+{{/with}}
+
+{{#with this.store.blockVideo}}
+  {{> sections/block-video}}
+{{/with}}
+
+
+
+
+
+{{> sections/block-rates}}
+{{> sections/block-form}}
+
+{{> sections/block-test}}
+
+{{/layouts/main}}

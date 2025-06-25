@@ -1,0 +1,43 @@
+$Montserrat: (
+    "Montserrat-Thin": 100,
+    "Montserrat-ExtraLight": 200,
+    "Montserrat-Light": 300,
+    "Montserrat-Regular": 400,
+    "Montserrat-Medium": 500,
+    "Montserrat-SemiBold": 600,
+    "Montserrat-Bold": 700,
+    "Montserrat-ExtraBold": 800,
+    "Montserrat-Black": 900,
+);
+
+$MontserratItalic: (
+    "InterTight-ThinItalic": 100,
+    "InterTight-ExtraLightItalic": 200,
+    "InterTight-LightItalic": 300,
+    "InterTight-Italic": 400,
+    "InterTight-MediumItalic": 500,
+    "InterTight-SemiBoldItalic": 600,
+    "InterTight-BoldItalic": 700,
+    "InterTight-ExtraBoldItalic": 800,
+    "InterTight-BlackItalic": 900,
+);
+
+@each $name, $value in $Montserrat {
+    @font-face {
+        font-family: "Montserrat";
+        src: url("../assets/fonts/Montserrat/#{$name}.ttf") format("truetype");
+        font-weight: $value;
+        font-style: normal;
+        font-display: swap;
+    }
+}
+
+@each $name, $value in $MontserratItalic {
+    @font-face {
+        font-family: "Montserrat";
+        src: url("../assets/fonts/Montserrat/#{$name}.ttf") format("truetype");
+        font-weight: $value;
+        font-style: normal;
+        font-display: swap;
+    }
+}

@@ -1,0 +1,18 @@
+<div
+    class="modal js-close-modal  modal-wrap  {{#if classNameModal}} {{classNameModal}}{{/if}}"
+    id="{{id}}"
+    data-target="{{id}}"
+>
+
+    <div class="modal-content js-scrollable-el">
+        <div class=" modal-content--inner js-c-modal-content">
+            <div
+                class="modal-close js-close-modal"
+                data-target="{{id}}"
+            >
+            </div>
+            {{> @partial-block }}
+
+        </div>
+    </div>
+</div>

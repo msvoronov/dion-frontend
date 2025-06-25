@@ -1,0 +1,28 @@
+<div class="swiper {{class}}"
+     data-id="{{id}}">
+    <div class="swiper-wrapper">
+        {{> @partial-block }}
+    </div>
+    {{#if pagination}}
+        <div class="swiper-pagination"></div>
+    {{/if}}
+    {{#if customPagination}}
+        <div class="custom-pagination js-custom-pagination"></div>
+    {{/if}}
+    {{#if arrows}}
+        <div class="swiper-button-prev">
+            {{{getSvg src="culture-swiper-arrow"}}}
+        </div>
+        <div class="swiper-button-next">
+            {{{getSvg src="culture-swiper-arrow"}}}
+        </div>
+    {{/if}}
+    {{#if stickyArrows}}
+        <div class="sticky-arrow js-sticky-arrow">
+            {{{getSvg src="swiper-arrow"}}}
+        </div>
+    {{/if}}
+    {{#if scrollbar}}
+        <div class="swiper-scrollbar"></div>
+    {{/if}}
+</div>

@@ -1,0 +1,32 @@
+<section class="block-complex" id="pak">
+  <div class="container">
+
+  <div class="block-complex__wrap">
+    <h2 class="block-complex__title">{{{title}}}</h2>
+    <div class="block-complex__text">
+      {{{descr}}}
+    </div>
+    <h3 class="block-complex__subtitle">
+      {{subtitle}}
+    </h3>
+    <div class="block-complex__images">
+      {{#each images}}
+        <div class="block-complex__images__img">
+          {{{getImg src=this}}}
+        </div>
+      {{/each}}
+    </div>
+    <div class="block-complex__included">
+      <h3 class="block-complex__subtitle">{{included.subtitle}}</h3>
+      <div class="block-complex__included__list">
+        {{#each included.list}}
+          <div class="block-complex__included__item">
+            <div class="block-complex__included__item__img">{{{getSvg src=img}}}</div>
+            <div class="block-complex__included__item__label">{{{label}}}</div>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+  </div>
+</section>

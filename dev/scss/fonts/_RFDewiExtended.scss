@@ -1,0 +1,23 @@
+$RFDewiExtended: (
+    "RFDewiExtended-Thin": 100,
+    "RFDewiExtended-Ultralight": 200,
+    "RFDewiExtended-Light": 300,
+    "RFDewiExtended-Regular": 400,
+    "RFDewiExtended-Medium": 500,
+    "RFDewiExtended-Semibold": 600,
+    "RFDewiExtended-Bold": 700,
+    "RFDewiExtended-Ultrabold": 800,
+    "RFDewiExtended-Black": 900,
+);
+
+@each $name, $value in $RFDewiExtended {
+    @font-face {
+        font-family: "RFDewiExtended";
+        src:  url("../assets/fonts/RFDewiExtended/#{$name}.woff2") format("woff2"), 
+              url("../assets/fonts/RFDewiExtended/#{$name}.woff") format("woff"),
+              url("../assets/fonts/RFDewiExtended/#{$name}.ttf") format("truetype");
+        font-weight: $value;
+        font-style: normal;
+        font-display: swap;
+    }
+}

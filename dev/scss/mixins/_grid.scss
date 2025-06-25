@@ -1,0 +1,38 @@
+@mixin grid($justify: null, $align: null, $gap: null) {
+    display: grid;
+
+    @if $justify != null {
+        justify-content: $justify;
+    }
+
+    @if $align != null {
+        align-items: $align;
+    }
+
+    @if $gap != null {
+        grid-gap: $gap;
+    }
+}
+
+@mixin grid-template-column($count: 1, $size: 1fr) {
+    grid-template-columns: repeat($count, $size);
+}
+
+@mixin grid-template-row($count: 1, $size: 1fr) {
+    grid-template-rows: repeat($count, $size);
+}
+
+@mixin grid-item($row-start, $col-start, $row-end, $col-end) {
+    @include grid-item-row($row-start, $row-end);
+    @include grid-item-column($col-start, $col-end);
+}
+
+@mixin grid-item-row($row-start, $row-end) {
+    grid-row-start: $row-start;
+    grid-row-end: $row-end;
+}
+
+@mixin grid-item-column($col-start, $col-end) {
+    grid-column-start: $col-start;
+    grid-column-end: $col-end;
+}

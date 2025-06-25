@@ -1,0 +1,632 @@
+{
+  "content1": {
+    "sections": [
+      {
+        "blockTitle": "Автоматизация года",
+        "id": "avtomatizatsiya-goda",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Бизнес-процесс по-новому",
+        "id": "biznes-protsess-po-novomu",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> : Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc ",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          }
+        ]
+      }
+    ]
+  },
+  "content2": {
+    "sections": [
+      {
+        "blockTitle": "Проекты для внешней аудитории",
+        "id": "proekty-dlya-vneshney-auditorii",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Проекты для сотрудников",
+        "id": "proekty-dlya-sotrudnikov",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "hasVote": true,
+            "target": "modal-info"
+          }
+        ]
+      }
+    ]
+  },
+  "content3": {
+    "sections": [
+      {
+        "blockTitle": "Для ВТБ и экосистемы",
+        "id": "dlya-vtb-i-ekosistemy",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Для бизнеса",
+        "id": "dlya-biznesa",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Для государства",
+        "id": "dlya-gosudarstva",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      }
+    ]
+  },
+  "content4": {
+    "sections": [
+      {
+        "blockTitle": "Для ВТБ и экосистемы",
+        "id": "dlya-vtb-i-ekosistemy",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Для бизнеса",
+        "id": "dlya-biznesa",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Для государства",
+        "id": "dlya-gosudarstva",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      }
+    ]
+  },
+
+  "content5": {
+    "sections": [
+      {
+        "blockTitle": "Поставка",
+        "id": "postavka",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Консалтинг и сервис",
+        "id": "konsalting-i-servis",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      },
+      {
+        "blockTitle": "Собственные решения",
+        "id": "sobstvennye-resheniya",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      }
+    ]
+  },
+  "content6": {
+    "sections": [
+      {
+        "blockTitle": "",
+        "id": "section-1",
+        "list": [
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          },
+          {
+            "itemTitle": "Название проекта",
+            "img": "https://team.t1.ru/api/file-service/user/3a0bae68-282a-568c-6b10-e9f52dae541f/avatar?size=thumb",
+            "name": "ФИО",
+            "position": "Должность",
+            "text": "<strong>Цель проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mu<br><br><strong>Результат проекта:</strong> Lorem ipsum dolor sit amet consectetur. Leo in lorem id turpis. Nunc etiam metus auctor elit. Proin sit dictum nulla pellentesque facilisi. Cras consectetur diam consectetur convallis posuere posuere. Auctor nisl nullam mus id eget lectus non nunc. Lobortis luctus nec ornare feugiat amet sagittis proin nunc. Arcu sed venenatis urna neque malesuada pulvinar. Mi nunc mi aliquam at arcu facilisis aliquet lobortis. Integer aliquet velit at est dolor semper dolor elit gravida amet purus feugiat purus.",
+            "href": "",
+            "target": "modal-info"
+          }
+        ]
+      }
+      
+    ]
+  }
+}

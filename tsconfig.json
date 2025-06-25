@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "module": "CommonJS",
+        "lib": ["ESNext", "DOM"],
+        "jsx": "react",
+        "allowJs": true,
+        "skipLibCheck": false,
+        "alwaysStrict": false,
+        "pretty": true,
+        "removeComments": true,
+        "sourceMap": true,
+        "target": "es6",
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        //
+        // Hell-mode - comment it
+        // "isolatedModules": true,
+        // "noUnusedLocals": true,
+        // "noUnusedParameters": true,
+        // "strict": true,
+        // "allowUnreachableCode": true,
+        // "noFallthroughCasesInSwitch": true,
+        // "noImplicitReturns": true,
+        //
+        "baseUrl": "./dev/",
+        "paths": {
+            "img": ["./dev/img/*"],
+            "svg": ["./dev/img/svg/*"],
+            "js": ["./dev/js/*"],
+            "css": ["./dev/css/*"]
+        }
+    },
+    "include": [
+        "./dev/js/@types/*.d.ts",
+        "./dev/js/**/*.d.ts",
+        "./dev/js/**/*.ts",
+        "./dev/js/**/*.tsx"
+    ],
+    "exclude": ["./node_modules"]
+}

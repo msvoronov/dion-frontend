@@ -1,0 +1,91 @@
+.accord {
+
+    .accord__trigger,
+    .accord__head {
+        cursor: pointer;
+    }
+
+    .accord__cross {
+        @include position(relative);
+        @include size(24px, 24px);
+        @include transition(transform);
+
+        @include media-max-s() {
+            @include size(20px, 20px);
+
+        }
+
+        &::after,
+        &::before {
+            content: "";
+            @include position(absolute, $top: 50%, $left: 50%);
+            @include size(2.5px, 24px);
+            @include bg-color($blue-light);
+
+            transform: translate(-50%, -50%);
+
+            @include media-max-s() {
+                @include size(2px, 20px);
+
+            }
+        }
+
+        &::before {
+            transform: translate(-50%, -50%) rotate(90deg);
+        }
+    }
+
+    .accord__head {
+        @include position(relative);
+        @include flex(row, space-between, center);
+
+        &--arrow {
+            @include transition(transform);
+            display: block;
+        }
+    }
+
+    &.disabled,
+    &.collapsing {
+        pointer-events: none;
+    }
+
+    &.collapse:not(.active),
+    &:not(.active):not(.accord-inited) {
+        &>.accord__body {
+            display: none;
+        }
+    }
+
+    &.collapsing {
+        &>.accord__body {
+            overflow: hidden;
+            pointer-events: none;
+            height: 0;
+            transition: height 0.3s ease;
+        }
+
+        &>.long-accord {
+            overflow: hidden;
+            pointer-events: none;
+            height: 0;
+            transition: height 0.3s ease;
+        }
+    }
+
+    &[data-collapse="open"] {
+        .accord__cross {
+            transform: rotate(45deg);
+        }
+
+        .accord__head--arrow {
+            transform: rotate(180deg);
+        }
+    }
+
+    &-area {
+        &.collapsing {
+            pointer-events: none;
+        }
+    }
+}

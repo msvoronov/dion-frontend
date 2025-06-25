@@ -1,0 +1,59 @@
+
+
+{{#> components/modal-wrap id='modal-form-marketing' classNameModal="modal-form-marketing" }}
+
+<div class="modal-form js-b-form">
+  <div class="modal-form__title">Заполните заявку</div>
+  <form action="/api/form-api/" class="modal-form__form js-ajax-form js-b-form__form js-form-validate" data-ym-target-name="enterprise_form_2" data-tmr-target-name="send_enterprise">
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Имя*</span>
+      <input type="text" name="name" class="form__field__input js-b-input__field" data-max-length="60"
+        placeholder="Представьтесь" data-cyrLat-name data-required>
+      <span class="alert-input-text"></span>
+    </label>
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Телефон*</span>
+      <input type="tel" name="tel" class="form__field__input js-b-input__field js-phone-input">
+      <span class="alert-input-text"></span>
+    </label>
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Email*</span>
+      <input type="email" name="email" placeholder="example@company.ru" class="form__field__input js-b-input__field"
+        data-email data-required>
+      <span class="alert-input-text"></span>
+    
+    </label>
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Компания*</span>
+      <input type="text" name="company" placeholder="Компания" class="form__field__input js-b-input__field"
+         data-required>
+      <span class="alert-input-text"></span>
+
+    </label>
+
+    <label class="form__field js-b-input">
+      <span class="form__field__label">Потенциальное количество пользователей*</span>
+      <input type="text" name="count" placeholder="Потенциальное количество пользователей" class="form__field__input js-b-input__field" data-numbers-max-length="6" data-required>
+      <span class="alert-input-text"></span>
+
+    </label>
+    <div class="form__checkbox__wrap ">
+      <label class="form__checkbox">
+        <input type="checkbox" name="privacy-policy" class="form__checkbox__input" data-required>
+        <span class="form__checkbox__holder"></span>
+        <span class="form__checkbox__label">Нажимая «Отправить» я предоставляю согласие на <a
+            href="/pdfs/dion-SOPD-obrashenie.pdf">обработку персональных данных</a></span>
+        <span class="alert-input-text"></span>
+      </label>
+      <label class="form__checkbox">
+        <input type="checkbox" name="addv" class="form__checkbox__input">
+        <span class="form__checkbox__holder"></span>
+        <span class="form__checkbox__label">Я согласен на <a href="/pdfs/dion-SOPD-reklama.pdf">получение
+            рекламы</a></span>
+        <span class="alert-input-text"></span>
+      </label>
+    </div>
+    <div class="modal-form__btn js-b-form-submit">Начать тест-драйв</div>
+  </form>
+</div>
+{{/components/modal-wrap}}

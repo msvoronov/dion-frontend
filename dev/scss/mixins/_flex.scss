@@ -1,0 +1,69 @@
+@mixin flex($direction: null, $justify: null, $align: null, $gap: null) {
+    display: flex;
+
+    @if $direction != null {
+        flex-direction: $direction;
+    }
+
+    @if $justify != null {
+        justify-content: $justify;
+    }
+
+    @if $align != null {
+        align-items: $align;
+    }
+
+    @if $gap != null {
+        gap: $gap;
+    }
+}
+
+@mixin flex-filling($grow: null, $shrink: null) {
+    @if $grow != null {
+        flex-grow: $grow;
+    }
+
+    @if $shrink != null {
+        flex-shrink: $shrink;
+    }
+}
+
+@mixin flex-inline($direction: null, $justify: null, $align: null, $gap: null) {
+    display: inline-flex;
+
+    @if $direction != null {
+        flex-direction: $direction;
+    }
+
+    @if $justify != null {
+        justify-content: $justify;
+    }
+
+    @if $align != null {
+        align-items: $align;
+    }
+
+    @if $gap != null {
+        gap: $gap;
+    }
+}
+
+@mixin flex-position-self($align: null, $justify: null) {
+    @if $align != null {
+        align-self: $align;
+    }
+
+    @if $justify != null {
+        justify-self: $justify;
+    }
+}
+
+@mixin flex-wrap($prop: wrap) {
+    @if $prop == wrap {
+        @extend %flex-wrap;
+    } @else if $prop == wrap-reverse {
+        @extend %flex-wrap-reverse;
+    } @else if $prop == nowrap {
+        @extend %flex-no-wrap;
+    }
+}

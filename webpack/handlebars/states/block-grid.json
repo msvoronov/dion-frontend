@@ -1,0 +1,62 @@
+{
+  "title": "DION – единое окно<br class='br-desk br-tab'> в эффективный рабочий день",
+  "descr": "Все, что нужно для удобной и безопасной<br> корпоративной коммуникации",
+  "list": [
+    {
+      "img": "grid/img__1.png",
+      "md": "grid/img__1__md.png",
+      "s": "grid/img__1__s.png",
+      "label": "конференции",
+      "descr": "Полноценная видеосвязь с широкими<br> возможностями для комфортного общения и работы"
+    },
+    {
+      "img": "grid/img__2.png",
+      "md": "grid/img__2__md.png",
+      "s": "grid/img__2__s.png",
+      "label": "DION.ЧАТЫ",
+      "descr": "Защищенный корпоративный мессенджер<br class='br-tab br-mob'> для сотрудников<br class='br-desk'> с возможностью создавать треды и каналы"
+    },
+    {
+      "img": "grid/img__3.png",
+      "md": "grid/img__3__md.png",
+      "s": "grid/img__3__s.png",
+      "label": "DION.ROOMS",
+      "descr": "Система бронирования<br class='br-desk br-tab'> и управления переговорными"
+    },
+    {
+      "img": "grid/img__4.png",
+      "md": "grid/img__4__md.png",
+      "s": "grid/img__4__s.png",
+      "label": "DION.ЗВОНКИ",
+      "descr": "Звонки внутри DION<br class='br-desk br-tab'> и внешним абонентам"
+    },
+    {
+      "img": "grid/img__5.png",
+      "md": "grid/img__5__md.png",
+      "s": "grid/img__5__s.png",
+      "label": "DION.ДИСК",
+      "descr": "Хранение и совместное<br class='br-desk br-tab'> редактирование файлов"
+    },
+    {
+      "img": "grid/img__6.png",
+      "md": "grid/img__6__md.png",
+      "s": "grid/img__6__s.png",
+      "label": "DION.ТРАНСЛЯЦИИ",
+      "descr": "Онлайн мероприятия<br class='br-desk'> любого масштаба"
+    },
+    {
+      "img": "grid/img__7.png",
+      "md": "grid/img__7__md.png",
+      "s": "grid/img__7__s.png",
+      "label": "DION.видео",
+      "descr": "Собственная корпоративная социальная видеосеть с каналами. Расшифровка речи в текст и формирование автоматического краткого содержания"
+    },
+    {
+      "img": "grid/img__8.png",
+      "md": "grid/img__8__md.png",
+      "s": "grid/img__8__s.png",
+      "label": "DION.Whiteboard",
+      "descr": "Онлайн доска для совместной работы<br class='br-desk'> и<br class='br-mob'> визуализации<br class='br-tab'> проектов и идей"
+    }
+  ]
+}

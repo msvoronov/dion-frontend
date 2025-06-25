@@ -1,0 +1,15 @@
+<div class="block-slider block-slider-people{{#if classNames}} {{classNames}}{{/if}}">
+  {{#> sliders/swiper class="js-slider-people" customPagination=true arrows=true}}
+    {{#each list }}
+      {{#> sliders/swiper__slide }}
+        <div class="block-slider-people__item">
+          <div class="block-slider-people__item__img js-image-wrap">
+            {{{getImg src=img}}}
+          </div>
+          <div class="block-slider-people__item__title">{{title}}</div>
+          <div class="block-slider-people__item__descr">{{{descr}}}</div>
+        </div>
+      {{/sliders/swiper__slide}}
+    {{/each}}
+  {{/sliders/swiper}}
+</div>

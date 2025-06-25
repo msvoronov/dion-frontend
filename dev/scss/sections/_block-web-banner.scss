@@ -1,0 +1,122 @@
+.web-banner {
+  width: 100%;
+  padding-top: 60px;
+  margin-inline: auto;
+  max-width: 1576px;
+}
+
+.web-banner__wrap {
+  margin: 0px 40px;
+  background: url(../../assets/img/web-banner-bg.png);
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  border-radius: 16px;
+
+  padding: 40px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  position: relative;
+}
+
+.web-banner__items {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 55px;
+}
+
+.web-banner__item {
+  background: #53DBED;
+  color: #111314;
+  font-size: 14px;
+  font-weight: 600;  
+  font-family: 'VTBGroupUI', Arial, sans-serif;
+  line-height: 18px;
+  padding: 7px 10px;
+  border-radius: 4px;
+}
+
+.web-banner__item:last-child {
+  background: #ffffff;
+  max-width: 130px;
+}
+
+.web-banner__title {  
+  font-weight: 800;
+  font-size: 48px;    
+  padding-bottom: 20px;
+  color: #FFFFFF;  
+}
+
+.web-banner__title > br {
+  display: none;
+}
+
+.web-banner__text {
+  font-weight: 400;
+  font-size: 16px;
+  font-family: 'VTBGroupUI', Arial, sans-serif;
+  line-height: 22px;
+  vertical-align: bottom;
+  color: #FFFFFF;
+  font-variant-numeric: lining-nums tabular-nums;
+  padding-bottom: 20px;
+}
+
+.web-banner__img {
+  position: absolute;
+  bottom: -5px;
+  right: 0px;
+}
+
+@media (max-width: 800px) {  
+  .web-banner__items {
+    flex-direction: column;
+    gap: 16px;
+  }
+}
+
+@media (max-width: 1650px) {
+  .web-banner__title {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .web-banner__title > br.first {
+    display: block;
+  }
+}
+
+@media (max-width: 1023px) {
+  .web-banner__wrap {
+    margin: 0 16px;
+  }
+
+  .web-banner__items {
+    margin-bottom: 32px;
+  }
+
+  .web-banner__title {
+    font-size: 32px;
+  }
+
+  .web-banner__text {
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width: 700px) {
+  .web-banner__title > br.second {
+    display: block;
+  }
+
+  .web-banner__wrap {
+    background: url(../../assets/img/web-banner-bg_small.png);
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}

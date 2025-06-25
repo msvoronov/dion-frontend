@@ -1,0 +1,137 @@
+.banner {
+
+  @include position(relative);
+  
+  @include size(100%);
+  @include min-size(null, 191px);
+
+  @include flex(row, null, center);
+  
+  border-radius: 24px;
+  overflow: hidden;
+  padding: 40px 37px;
+  
+  @include media-max-md() {
+    @include flex(row, space-between, space-between);
+    @include size(100%, 300px);
+    padding: 30px;
+  }
+
+  
+  @include media-max-s() {
+    padding: 30px 24px;
+    @include size(100%, 449px);
+  }
+
+  &--awards {
+    padding-right: 267px;
+    @include flex(row, space-between, center);
+    margin-top: 150px;
+    
+    @include media-max-lg() {
+      padding-right: 190px;
+    }
+    @include media-max-md() {
+      @include flex(column, space-between, flex-start);
+      padding-right: 40px;
+    }
+    @include media-max-s() {
+      @include flex(column, space-between, flex-start);
+      
+      gap: 0;
+    }
+
+    .banner__label {
+      @include media-max-s() {
+        @include font-size(32px, 1, 800);
+
+      }
+    }
+  }
+  
+  &--advantages {
+
+    gap: 38px;
+
+    margin-top: 150px;
+    @include media-max-md() {
+      @include flex(column,space-between, flex-start);
+    }
+
+    @include media-max-s() {
+      gap: 0;
+    }
+    
+  }
+  &--possibilities {
+
+    gap: 64px;
+
+    margin-top: 150px;
+
+    @include media-max-md() {
+      @include flex(column,space-between, flex-start);
+    }
+
+    @include media-max-s() {
+      gap: 0;
+      @include size(null, 551px)
+    }
+
+    .banner__label {
+      @include media-max-md() {
+        @include font-size(32px, 1, 800);
+
+      }
+    }
+    
+  }
+
+  &__label {
+    @include position(relative);
+    @extend %font-RFDewiExtended;
+    @include font-size(28px, 1, 800);
+
+  }
+
+  &__btns {
+    @include position(relative);
+    @include flex($gap: 15px);
+    @include flex-wrap();
+    
+    @include media-max-md() {
+      @include flex(column, $gap: 10px);
+      @include max-size(300px);
+      @include size(100%);
+    
+    }
+    @include media-max-s() {
+      @include max-size(100%);
+    
+    }
+  }
+
+  &__btn {
+    @include bg-color(#FAFCFF);
+    @include color(#202124);
+    @include font-size(18.01px, 23.26px, 800);
+
+    border-radius: 31px;
+
+    padding: 12px 24px;
+
+    @include media-max-md() {
+      @include size(100%);
+      text-align: center;
+    }
+  }
+  
+  &__bg {
+    pointer-events: none;
+    @include position(absolute, $top: 0, $right: 0);
+    @include size(fit-content);
+
+    @include image-wrap(100%, 100%, cover);
+    
+  }
+}

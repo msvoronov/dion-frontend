@@ -1,0 +1,105 @@
+.block-complex {
+  &__title {
+    @extend %font-RFDewiExtended;
+    @include font-size(45px, 56px, 800);
+    margin-bottom: 40px;
+    
+    @include media-max-md() {
+      
+      @include font-size(32px, 1, 800);
+    }
+    @include media-max-s() {
+      padding-left: 43px
+      
+    }
+  }
+  
+  &__text {
+    @include font-size(24px, 32px, 400);
+    @include max-size(756px);
+    margin-bottom: 68px;
+    @include media-max-md() {
+      margin-bottom: 40px;
+      @include font-size(16px, 24px, 400);
+      
+    }
+  }
+  
+  &__subtitle {
+    @extend %font-RFDewiExtended;
+    @include font-size(36px, 41px, 800);
+    margin-bottom: 54px;
+  }
+
+  &__images {
+    @include flex($gap: 10.6px);
+    margin-bottom: 11px;
+    
+    @include media-max-md() {
+       @include flex(column, $gap: 10.6px);
+          
+
+        }
+
+    &__img {
+
+      &:first-child {
+        @include max-size(36.19%);
+        
+        @include media-max-md() {
+          @include max-size(100%);
+
+        }
+      }
+      &:last-child {
+        @include max-size(100%);
+        
+        @include media-max-md() {
+          @include max-size(100%);
+
+        }
+      }
+      @include size(100%);
+
+      img {
+        @include size(100%);
+      }
+    }
+  }
+
+  &__included {
+    @include bg-color(#1A1C1E);
+    border-radius: 12px;
+    padding: 42px 38px;
+
+    @include media-max-md() {
+      padding: 20px;
+    }
+
+    &__list {
+
+      @include flex(row, space-between, $gap: 1px);
+      @include flex-wrap();
+      
+      @include media-max-md() {
+        @include flex(row, unset, $gap: 20px 1px);
+      }
+
+    }
+    &__item {
+      @include flex(column, flex-start, center, 8px);
+
+      @include media-max-md() {
+        @include item-size(2, 1px);
+      }
+      
+      &__label {
+        @include font-size(18px, 1, 400);
+        text-align: center;
+
+
+      }
+
+    }
+  }
+}

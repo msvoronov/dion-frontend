@@ -1,0 +1,55 @@
+.top-banner {
+  @include position(absolute, $top: 0);
+  width: 100%;
+  box-sizing: border-box;
+  background: linear-gradient(91.86deg, #45307F 0%, #902CFC 64.88%, #3D2BFF 102.36%);
+}
+
+.top-banner__wrap {  
+  display: inline-block;
+  position: relative;
+  top: -3px;
+  width: calc(100% - 40px);
+  margin-right: 40px;
+}
+
+.top-banner__container {
+  width: 700px;
+  padding: 9px 0px;
+  margin: 0 auto;
+  display: flex;
+  gap: 16px;
+  justify-content: space-evenly;
+}
+
+.top-banner__label {  
+  background: #53DBED;
+  color: #111314;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: 'VTBGroupUI', Arial, sans-serif;
+  line-height: 18px;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+.top-banner__text {
+  color: #EBEDF0;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'VTBGroupUI', Arial, sans-serif;
+  line-height: 22px;
+}
+
+.top-banner__close-button {
+  cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+@media (max-width: 1023px) {
+  .top-banner {
+    display: none;
+  }
+}

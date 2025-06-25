@@ -1,0 +1,28 @@
+<section class="block-possibilities" id="possibilities">
+  <div class="container">
+    {{> shared/section-title}}
+    <div class="block-possibilities__wrap">
+      {{#each list}}
+        <div class="block-possibilities__item">
+          <div class="block-possibilities__item__img">{{{getSvg src=img}}}</div>
+          <div class="block-possibilities__item__descr">{{{descr}}}</div>
+        </div>
+      {{/each}}
+    </div>
+
+    <span class="block-possibilities__tip">* под клиента, размещение в on-premise</span>
+
+    <div class="banner banner--possibilities">
+      <div class="banner__bg">
+        {{{getPicture src="banners/bg__3.png" md="banners/bg__3__md.png" s="banners/bg__3__s.png"}}}
+      </div>
+      <div class="banner__label">Узнать<br class="br-mob"> больше<br> о&nbsp;возможностях DION</div>
+      <div class="banner__btns">
+        <a href="/assets/docs/DION_overview_presentation.pdf" class="banner__btn" download="">Скачать обзор</a>
+        <a href="#video" class="banner__btn"
+          onclick="_tmr.push({ type: 'reachGoal', id: 3655439, goal: 'click_video'});"
+        >Посмотреть видео</a>
+      </div>
+    </div>
+  </div>
+</section>

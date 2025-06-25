@@ -1,0 +1,40 @@
+.block-video {
+  &__title {
+    @extend %font-RFDewiExtended;
+    @include font-size(45px, 56px, 800);
+    margin-bottom: 40px;
+    
+    @include media-max-md() {
+      @include font-size(32px, 1, 800);
+    }
+    @include media-max-s() {
+      padding-left: 43px;
+    }
+  }
+  
+  &__descr {
+    @include font-size(24px, 32px, 400);
+    @include size(764px);
+    margin-bottom: 83px;
+    
+    @include media-max-md() {
+      @include size(50%);
+      @include font-size(16px, 22px, 400);
+      margin-bottom: 40px;
+    }
+    @include media-max-s() {
+      @include size(100%);
+    }
+  }
+
+  &__wrap {
+    video {
+      @include size(100%, 100%);
+      @include max-size(null, calc(100vh - 88px));
+      
+      @include media-max-md() {
+        @include max-size(null, calc(100vh - 80px));
+      }
+    }
+  }
+}

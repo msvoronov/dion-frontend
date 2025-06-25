@@ -1,0 +1,165 @@
+.footer {
+  &__wrap {
+    
+    &__top a,
+    &__mid a {
+      @include color(#FFFFFF);
+
+    }
+    &__bot a {
+      @include color(#4E5158);
+
+    }
+
+    &__top,
+    &__mid,
+    &__bot {
+      @include max-size(1216px);
+      margin: 0 auto;
+
+      border-bottom: 1px solid #242528; 
+    }
+
+
+    &__top {
+      @include flex(row, space-between);
+      padding: 45px 0 28px;
+      
+      @include media-max-md() {
+        padding: 40px 0;
+        @include flex(column, space-between, $gap: 40px);
+      }
+    }
+
+    &__copy,
+    &__policy {
+      @include font-size(12px, 19px, 400);
+      @include color(#4E5158);
+
+    }
+
+    &__policy {
+      @include size(fit-content);
+    }
+
+    &__mid {
+      @include flex($gap: 27px);
+      padding: 14px 0;
+      
+      @include media-max-md() {
+        @include flex(column, $gap: 30px);
+        padding: 40px 0;
+      }
+    }
+
+    &__bot {
+      @include flex(row, space-between, center);
+      padding: 15px 0 18px;
+      
+      @include media-max-md() {
+        @include flex(column-reverse, space-between, flex-start, 20px);
+        padding: 30px 0 40px;
+
+      }
+    }
+
+    &__policys {
+      @include flex(row,null, center, $gap: 40px);
+      
+      @include media-max-md() {
+        @include max-size(100%);
+        @include size(100%);
+        display: grid;
+        grid-template-rows: repeat(3, 1fr);
+        grid-auto-flow: column; 
+        gap: 0;
+      }
+      @include media-max-s() {
+        @include flex(column, null, flex-start, 10px);
+
+      }
+    }
+
+    &__contacts {
+      &__text {
+        @include font-size(16px, 22px, 400);
+        @include color(#FFFFFF);
+
+        @include media-max-md() {
+          @include max-size(294px);
+        }
+      }
+    }
+  }
+
+  &__navigation {
+    @include flex(row, $gap: 59px);
+    @include flex-wrap();
+
+    @include media-max-md(){
+      display: grid;
+      grid-template-rows: repeat(4, 1fr);
+      grid-auto-flow: column; 
+      gap: 20px 60px; 
+      @include size(fit-content);
+    }
+
+    &__item {
+      @include font-size(14px, 1.05, 600);
+
+      @include media-max-md() {
+        
+      }
+
+    }
+  }
+
+  &__col {
+    @include flex(column, $gap: 9px);
+  }
+
+  &__buttons {
+    @include flex(column, null, flex-end, $gap: 14px);
+    margin-left: auto;
+    
+    @include media-max-md() {
+      @include flex(column, null, unset, $gap: 14px);
+      margin-left: unset;
+    }
+
+    &.mob {
+      display: none;
+      @include media-max-md() {
+        display: flex
+      }
+    }
+    &.desk {
+      
+      @include media-max-md() {
+        display: none;
+      }
+    }
+  }
+
+
+  &__button {
+    @include bg-color(transparent);
+    @include border(1px, solid, #4A4949);
+    @include color(#FFFFFF);
+    @include size(fit-content);
+
+    @include font-size(16px, 25px, 700);
+    text-align: center;
+
+    padding: 10px 27px;
+    border-radius: 30px;
+
+    @include media-max-md() {
+      @include max-size(283px);
+      @include size(100%);
+    }
+    @include media-max-s() {
+      @include max-size(100%);
+    }
+  }
+}

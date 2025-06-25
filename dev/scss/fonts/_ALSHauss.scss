@@ -1,0 +1,26 @@
+$ALSHauss: (
+    "als_hauss_light": 300,
+    "als_hauss_regular": 400,
+    "als_hauss_medium": 500,
+    "als_hauss_bold": 700,
+);
+
+$ALSHaussItalic: (
+    "als_hauss_light_italic": 300,
+    "als_hauss_regular_italic": 400,
+    "als_hauss_medium_italic": 500,
+    "als_hauss_bold_italic": 700,
+);
+
+
+
+@each $name, $value in $ALSHauss {
+    @font-face {
+        font-family: "ALS Hauss";
+        src: url("../assets/fonts/ALSHauss/#{$name}.woff2") format("woff2"), 
+            url("../assets/fonts/ALSHauss/#{$name}.woff") format("woff");
+        font-weight: $value;
+        font-style: normal;
+        font-display: swap;
+    }
+}

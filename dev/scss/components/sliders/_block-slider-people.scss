@@ -1,0 +1,18 @@
+.block-slider-people {
+  &__item {
+    &__img {
+      @include image-wrap(100%, 100%, contain);
+      border-radius: 16px;
+      margin-bottom: 16px;
+      overflow: hidden;
+    }
+
+    &__title,
+    &__descr {
+      @include font-size(0.8rem, 1.4, 500);
+    }
+    &__descr {
+      @include color($gray);
+    }
+  }
+}
