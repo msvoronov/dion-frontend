@@ -2,7 +2,7 @@
   @include position(absolute, $top: 0);
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(91.86deg, #45307F 0%, #902CFC 64.88%, #3D2BFF 102.36%);
+  background: linear-gradient(91.86deg, #173D84 0%, #2862CC 64.88%, #0D1936 102.36%);
 }
 
 .top-banner__wrap {  
@@ -14,7 +14,7 @@
 }
 
 .top-banner__container {
-  width: 700px;
+  width: 770px;
   padding: 9px 0px;
   margin: 0 auto;
   display: flex;
@@ -23,7 +23,7 @@
 }
 
 .top-banner__label {  
-  background: #53DBED;
+  background: #fff;
   color: #111314;
   font-size: 14px;
   font-weight: 600;
@@ -42,6 +42,7 @@
 }
 
 .top-banner__close-button {
+  filter: invert(1);
   cursor: pointer;
   position: absolute;
   top: 8px;

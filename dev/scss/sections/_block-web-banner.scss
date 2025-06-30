@@ -28,8 +28,8 @@
 }
 
 .web-banner__item {
-  background: #53DBED;
-  color: #111314;
+  background: #0062FF;
+  color: #fff;
   font-size: 14px;
   font-weight: 600;  
   font-family: 'VTBGroupUI', Arial, sans-serif;
@@ -40,7 +40,8 @@
 
 .web-banner__item:last-child {
   background: #ffffff;
-  max-width: 130px;
+  max-width: 240px;
+  color: #000;
 }
 
 .web-banner__title {  
