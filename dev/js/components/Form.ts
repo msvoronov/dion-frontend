@@ -109,7 +109,6 @@ class Form extends Component {
     const ajaxForm = Ajax.init(url, JSON.stringify(dataToSend));
     try {
       const res = await ajaxForm.request();
-      this.clearForm();
 
       const targetNames = this.form.dataset.ymTargetName.split(' ');
       if (window.ym) {
@@ -120,6 +119,47 @@ class Form extends Component {
         tmrTargetNames.forEach(targetName => window._tmr.push({ type: 'reachGoal', id: 3655439, goal: targetName}));
       }
 
+      const needSendDataToSendsay = !!this.form.dataset.sendsay;
+      if (needSendDataToSendsay) {
+        // Отправка запроса на sendsay
+        const name = this.form.elements['name'].value;
+        const email = this.form.elements['email'].value;
+        const persData = String(this.form.elements['privacy-policy'].checked);
+        const advertising = String(this.form.elements['addv'].checked);
+        
+        const payload = {
+          action: "member.set",
+          apikey: "192D7bhrwJ7S9WFBcIpxg9awL9ulH8kj8104InHfjU8fajdypw7DTu9yWVKqs55KK1Box0uIpiWxpQE9PFRtcDxfOxGozjw",
+          email,
+          datakey: [
+            ["-group.pl86492", "set", "1"],
+            ["id scenario", "set", "139"],
+            ["custom.q388", "set", name],
+            ["custom.privacy", "set", persData],
+            ["custom.subscribe", "set", advertising],
+          ],
+          "newbie.confirm": 0,
+          "newbie.letter.confirm": 2585,
+        };
+
+        fetch("https://api.sendsay.ru/general/api/v100/json/x_1676015140895099/", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json"
+          },
+          body: JSON.stringify(payload)
+        })
+          .then((res) => res.json())
+          .then((data) => {
+            console.log("Ответ Sendsay:", data);
+          })
+          .catch((err) => {
+            console.error("Ошибка при отправке в Sendsay:", err);
+          });
+        // ----------------------------
+      }
+
+      this.clearForm();
     } catch (err) {
       throw new Error(err);
     }
