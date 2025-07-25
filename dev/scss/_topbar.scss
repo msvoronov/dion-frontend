@@ -2,7 +2,7 @@
   @include position(absolute, $top: 0);
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(91.86deg, #173D84 0%, #2862CC 64.88%, #0D1936 102.36%);
+  background: linear-gradient(91.86deg, #1D1245 0%, #351DA1 64.88%, #0D1936 102.36%);
 }
 
 .top-banner__wrap {  
@@ -14,7 +14,7 @@
 }
 
 .top-banner__container {
-  width: 770px;
+  width: 860px;
   padding: 9px 0px;
   margin: 0 auto;
   display: flex;
@@ -23,10 +23,10 @@
 }
 
 .top-banner__label {  
-  background: #fff;
-  color: #111314;
+  background: linear-gradient(90deg, #0560F7 0%, #951D0C 100%);
+  color: #fff;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'VTBGroupUI', Arial, sans-serif;
   line-height: 18px;
   padding: 2px 4px;
@@ -36,7 +36,7 @@
 .top-banner__text {
   color: #EBEDF0;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
   font-family: 'VTBGroupUI', Arial, sans-serif;
   line-height: 22px;
 }
