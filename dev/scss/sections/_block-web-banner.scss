@@ -7,7 +7,7 @@
 
 .web-banner__wrap {
   margin: 0px 40px;
-  background: url(../../assets/img/web-banner-bg.png);
+  background: url(/assets/img/web-banner-bg.png);
   background-origin: border-box;
   background-repeat: no-repeat;
   background-size: cover;
@@ -28,10 +28,10 @@
 }
 
 .web-banner__item {
-  background: linear-gradient(90deg, #0062FF 0%, #971D0A 100%);
+  background: #0062FF;
   color: #fff;
   font-size: 14px;
-  font-weight: 600;  
+  font-weight: 500;  
   font-family: 'VTBGroupUI', Arial, sans-serif;
   line-height: 18px;
   padding: 7px 10px;
@@ -47,11 +47,11 @@
 .web-banner__title {  
   font-weight: 800;
   font-size: 48px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   color: #FFFFFF;  
 }
 
-.web-banner__title > br:last-child {
+.web-banner__title > br {
   display: none;
 }
 
@@ -68,14 +68,6 @@
 
 .web-banner__img {
   position: absolute;
-}
-
-.img__first {
-  top: 50px;
-  right: 320px;
-}
-
-.img__last {
   top: 0px;
   right: 0px;
 }
@@ -86,69 +78,48 @@
   }
 }
 
-@media (max-width: 1450px) {
-  .web-banner__title > br:last-child {
+@media (max-width: 1200px) {
+  .web-banner__wrap {
+    background-image: url(/assets/img/web-banner-bg_mid.png);
+  }
+
+  .web-banner__title > br {
     display: block;
   }
+
   .web-banner__items {
     margin-bottom: 32px;
   }
-}
 
-@media (max-width: 1200px) {
-  .img__first {
-    transform: scale(0.65);
-    top: 70px;
-    right: 150px;
-  }
-
-  .img__last {
-    top: 10px;
-    right: -70px;
+  .web-banner__text {
+    padding-bottom: 0px;
   }
 }
 
 @media (max-width: 1023px) {
   .web-banner__wrap {
     margin: 0 16px;
+    padding-bottom: 0px;
   }
 
   .web-banner__title {
     font-size: 32px;
   }
 
-  .web-banner__text {
-    padding-bottom: 250px;
-  }
-}
-
-@media (max-width: 840px) {  
   .web-banner__items {
     flex-direction: column;
     gap: 16px;
   }
 
-  .img__first {
-    top: 70px;
-    right: 0px;
-  }
-  
-  .img__last {
-    display: none;
+  .web-banner__img {
+    position: relative;
+    top: 5px;
+    right: 25px;
   }
 }
 
 @media (max-width: 700px) {
   .web-banner__wrap {
-    background: url(../../assets/img/web-banner-bg_small.png);
-    background-origin: border-box;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-
-  .img__first {
-    position: relative;
-    top: 10px;
-    right: 80px;
+    background-image: url(/assets/img/web-banner-bg_small.png);
   }
 }

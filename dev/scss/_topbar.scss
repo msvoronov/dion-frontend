@@ -2,7 +2,7 @@
   @include position(absolute, $top: 0);
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(91.86deg, #1D1245 0%, #351DA1 64.88%, #0D1936 102.36%);
+  background: linear-gradient(91.82deg, #010708 -3.17%, #0707A1 26.74%, #0707A1 63.75%, #0D1936 102.4%);
 }
 
 .top-banner__wrap {  
@@ -14,7 +14,7 @@
 }
 
 .top-banner__container {
-  width: 860px;
+  width: 760px;
   padding: 9px 0px;
   margin: 0 auto;
   display: flex;
@@ -23,8 +23,8 @@
 }
 
 .top-banner__label {  
-  background: linear-gradient(90deg, #0560F7 0%, #951D0C 100%);
-  color: #fff;
+  background: #fff;
+  color: #000;
   font-size: 14px;
   font-weight: 500;
   font-family: 'VTBGroupUI', Arial, sans-serif;
