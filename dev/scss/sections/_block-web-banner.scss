@@ -7,7 +7,7 @@
 
 .web-banner__wrap {
   margin: 0px 40px;
-  background: url(/assets/img/web-banner-bg.png);
+  background: url("../assets/img/web-banner-bg.png");
   background-origin: border-box;
   background-repeat: no-repeat;
   background-size: cover;
@@ -80,7 +80,7 @@
 
 @media (max-width: 1200px) {
   .web-banner__wrap {
-    background-image: url(/assets/img/web-banner-bg_mid.png);
+    background-image: url("../assets/img/web-banner-bg_mid.png");
   }
 
   .web-banner__title > br {
@@ -120,6 +120,6 @@
 
 @media (max-width: 700px) {
   .web-banner__wrap {
-    background-image: url(/assets/img/web-banner-bg_small.png);
+    background-image: url("../assets/img/web-banner-bg_small.png");
   }
 }
