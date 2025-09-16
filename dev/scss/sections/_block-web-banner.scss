@@ -6,13 +6,16 @@
 }
 
 .web-banner__wrap {
+  max-width: 1576px;
   background: url("../assets/img/web-banner-bg.png");
+  background-position: center;  
   background-origin: border-box;
   background-repeat: no-repeat;
   background-size: cover;
-  overflow: hidden;
-  border-radius: 16px;  
-  padding: 40px 32px;
+  overflow: hidden;  
+  border-radius: 16px;
+
+  padding: 40px 32px 32px 32px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -22,115 +25,108 @@
 .web-banner__items {
   display: flex;
   gap: 16px;
-  margin-bottom: 54px;
+  margin-bottom: 28px;
 }
 
 .web-banner__item {
-  background: #0062FF;
-  color: #fff;
-  font-size: 14px;
-  font-weight: 500;
+  background: #00FFB3;
+  color: #000;
   font-family: 'VTBGroupUI', Arial, sans-serif;
-  line-height: 18px;
-  padding: 7px 10px;
-  border-radius: 4px;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 7px 12px;
+  border-radius: 8px;
 }
 
 .web-banner__item:last-child {
-  font-weight: 600;
   background: #ffffff;
-  max-width: 240px;
-  color: #000;
 }
 
-.web-banner__title {  
+.web-banner__title {
+  font-family: 'RFDewiExtended', Arial, sans-serif;
   font-weight: 800;
   font-size: 48px;
-  padding-bottom: 18px;
-  color: #FFFFFF;  
-}
-
-.web-banner__title > br,
-.web-banner__text > br {
-  display: none;
+  line-height: 100%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
 }
 
 .web-banner__text {
-  font-weight: 400;
-  font-size: 16px;
-  font-family: 'VTBGroupUI', Arial, sans-serif;
-  line-height: 22px;
-  vertical-align: bottom;
+  font-family: 'RFDewiExtended', Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.2;
   color: #FFFFFF;
   font-variant-numeric: lining-nums tabular-nums;
-  padding-bottom: 14px;
+}
+
+.web-banner__text br {
+  display: none;
 }
 
 .web-banner__img {
   position: absolute;
-  top: -13px;
-  right: 0px;
-  width: 355px;
+  top: -110px;
+  right: -80px;
+  width: 359px;
+  height: 359px;
+  border-radius: 50%;
+  overflow: hidden;
 }
 
 .web-banner__img img {
-  width: 100%;
+  position: absolute;
+  right: 50px;
+  bottom: -15px;
+  width: 380px;
 }
 
-@media (max-width: 1440px) {
+@media (max-width: 1439px) {
   .web-banner__wrap {
     background-image: url("../assets/img/web-banner-bg_mid.png");
-  }
+  }  
   .web-banner__title {
-    font-size: 40px;
-    line-height: 0.99;
+    font-size: 36px;
+    letter-spacing: -0.035em;
   }
-  .web-banner__title > br {
+  .web-banner__text br {
     display: block;
   }
-  .web-banner__items {
-    margin-bottom: 32px;
-  }
-  .web-banner__text {
-    padding-bottom: 0px;
-  }
-  .web-banner__img {
-    top: -5px;
-    right: 0;
-    width: 330px;
+  .web-banner__text {  
+    letter-spacing: -0.02em;
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1023px) {
   .web-banner__wrap {
     background-image: url("../assets/img/web-banner-bg_small.png");
-    padding-bottom: 0px;
-  }
-  .web-banner__items {
-    flex-direction: column;
-    gap: 16px;
-  }
-  .web-banner__item:first-child {  
-    align-self: flex-start;
+    padding: 35px 19px 250px;
   }
   .web-banner__title {
     font-size: 32px;
   }
-  .web-banner__text br {
-    padding-bottom: 0;
-  }
-  .web-banner__text br {
-    display: block;
-  }
   .web-banner__img {
-    position: relative;
-    top: 20px;
-    right: 35px;
+    top: auto;
+    right: auto;
+    bottom: -135px;
+    width: 353px;
+    height: 353px;
+  }
+  .web-banner__img img {
+    right: -20px;
+    bottom: auto;
+    width: 463px;
+  }
+}
+
+@media (max-width: 767px) {
+  .web-banner__text br {
+    display: none;
   }
 }
 
 @media (max-width: 576px) {
-.web-banner {  
-  padding: 40px 20px 16px;
-}
+  .web-banner {
+    padding: 40px 20px 16px;
+  }
 }
