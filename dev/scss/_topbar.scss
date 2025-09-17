@@ -2,7 +2,7 @@
   @include position(absolute, $top: 0);
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(91.82deg, #010708 -3.17%, #0707A1 26.74%, #0707A1 63.75%, #0D1936 102.4%);
+  background: linear-gradient(91.86deg, #1D1245 0%, #351DA1 64.88%, #0D1936 102.36%);
 }
 
 .top-banner__wrap {  
@@ -12,7 +12,7 @@
 }
 
 .top-banner__container {
-  width: 853px;
+  width: fit-content;
   padding: 9px 0px;
   margin: 0 auto;
   display: flex;
@@ -21,7 +21,7 @@
 }
 
 .top-banner__label {  
-  background: #fff;
+  background: #00FFB3;
   color: #000;
   font-size: 14px;
   font-weight: 500;
@@ -47,7 +47,7 @@
   right: 8px;
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1188px) {
   .top-banner {
     display: none;
   }
