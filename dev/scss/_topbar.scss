@@ -2,7 +2,7 @@
   @include position(absolute, $top: 0);
   width: 100%;
   box-sizing: border-box;
-  background: linear-gradient(91.86deg, #1D1245 0%, #351DA1 64.88%, #0D1936 102.36%);
+  background: #361BBB;
 }
 
 .top-banner__wrap {  
@@ -17,12 +17,12 @@
   margin: 0 auto;
   display: flex;
   gap: 16px;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .top-banner__label {  
-  background: #00FFB3;
-  color: #000;
+  background: #FAFCFF;
+  color: #202124;
   font-size: 14px;
   font-weight: 500;
   font-family: 'VTBGroupUI', Arial, sans-serif;
@@ -47,7 +47,7 @@
   right: 8px;
 }
 
-@media (max-width: 1188px) {
+@media (max-width: 1023px) {
   .top-banner {
     display: none;
   }
