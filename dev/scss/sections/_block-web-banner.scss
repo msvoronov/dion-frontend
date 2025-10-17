@@ -142,3 +142,26 @@
     left: -168px;
   }
 }
+@media (max-width: 575px) {
+  .web-banner { 
+    padding: 20px;
+  }
+}
+
+@media (max-width: 373px) {
+  .web-banner__wrap {
+    padding-top: 20px;
+    padding-inline: 20px;
+  }
+  .web-banner__items {
+    font-size: 13px;
+  }
+  .web-banner__title {
+    font-size: 26px;
+  }
+  .web-banner__img img:last-child,
+  .web-banner__img svg:last-child {
+    transform: scale(0.8);
+    left: -190px;
+  }
+}
