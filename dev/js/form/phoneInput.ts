@@ -13,13 +13,15 @@ export const phoneInput = () => {
 
 const initPhoneInput = (input) => {
   const ini = intlTelInput(input, {
-    //@ts-ignore
+    // @ts-ignore
     utilsScript:
       "https://cdn.jsdelivr.net/npm/intl-tel-input@18.2.1/build/js/utils.js",
+    // @ts-ignore
     autoPlaceholder: "on",
     autoInsertDialCode: true,
     nationalMode: false,
     initialCountry: "ru",
+    // @ts-ignore
     onlyCountries: [...Object.keys(masks)],
   });
 
