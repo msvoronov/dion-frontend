@@ -25,11 +25,18 @@
         </div>
       </div>
       <div class="form__title">Заполните заявку на&nbsp;тестирование DION</div>
-      <form action="/api/form-api/" class="form__form js-ajax-form js-b-form__form js-form-validate" data-ym-target-name="enterprise_form_1 enterprise_sendform_test" data-tmr-target-name="send_test_enterprise" data-sendsay="true">
+      <form action="/api/form-api/" class="form__form js-ajax-form js-b-form__form js-form-validate" data-ym-target-name="enterprise_form_1 enterprise_sendform_test" data-tmr-target-name="send_test_enterprise" data-sendsay="true" data-id='form'>
         <div class="form__wrap">
           <label class="form__field js-b-input">
-            <span class="form__field__label">Как вас зовут*</span>
-            <input type="text" name="name" class="form__field__input js-b-input__field" data-max-length="60" placeholder="Представьтесь"
+            <span class="form__field__label">Фамилия*</span>
+            <input type="text" name="surname" class="form__field__input js-b-input__field" data-max-length="60" placeholder="Фамилия"
+              data-cyrLat-name data-required>
+            <span class="alert-input-text"></span>
+          </label>
+
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Имя*</span>
+            <input type="text" name="name" class="form__field__input js-b-input__field" data-max-length="60" placeholder="Имя"
               data-cyrLat-name data-required>
             <span class="alert-input-text"></span>
           </label>
@@ -40,7 +47,7 @@
             <span class="alert-input-text"></span>
           </label>
 
-          <label class="form__field js-b-input">
+          {{!-- <label class="form__field js-b-input">
             <span class="form__field__label">Департамент*</span>
             <input type="text" name="department" placeholder="Укажите департамент" class="form__field__input js-b-input__field" data-max-length="60" data-required>
             <span class="alert-input-text"></span>
@@ -58,20 +65,26 @@
             </div>
             <span class="alert-input-text"></span>
             <div class="form__field__help">DION – платформа корпоративных коммуникаций и доступна только для юридических лиц</div>
-          </label>
+          </label> --}}
           
           <label class="form__field js-b-input">
             <span class="form__field__label">Потенциальное количество пользователей*</span>
             <input type="text" name="count" class="form__field__input js-b-input__field" placeholder="Укажите количество" data-numbers-max-length="5" data-required>
             <span class="alert-input-text"></span>
           </label>
-          
+
+          <label class="form__field js-b-input">
+            <span class="form__field__label">Компания*</span>
+            <input type="text" name="company" placeholder="Название компании" class="form__field__input js-b-input__field" data-required>
+            <span class="alert-input-text"></span>
+          </label>
+
           <button type="submit" class="btn js-b-form-submit js-button" data-ym-target-name="enterprise_clickform_test">Отправить заявку</button>
 
           <label class="form__field js-b-input">
-          <span class="form__field__label">Компания*</span>
-          <input type="text" name="company" placeholder="Название компании" class="form__field__input js-b-input__field" data-required>
-          <span class="alert-input-text"></span>
+            <span class="form__field__label">Должность*</span>
+            <input type="text" name="position" placeholder="Название должности" class="form__field__input js-b-input__field" data-required>
+            <span class="alert-input-text"></span>
           </label>
 
           <label class="form__field js-b-input">

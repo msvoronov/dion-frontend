@@ -75,19 +75,33 @@ class Form extends Component {
 
     const siteUrl = this.hasClass(this.form, 'js-support-form') ? location.pathname + '-support' : location.pathname;
 
-    const [utmSource, utmMedium, utmCampaign, utmContent, utmTerm] =
-      this.getUtms();
+    const [utmSource, utmMedium, utmCampaign, utmContent, utmTerm] = this.getUtms();
+
+    const surname = data.get("surname");
+    const name = data.get("name");
+    const count = data.get("count");
+    const company = data.get("company");
+    const position = data.get("position");
+    const email = data.get("email");
+    const tel = data.get("tel");
+    const advertising = data.get("addv");
+
+    const formID = this.form.dataset.id;
+    const formSource = 'dion_enterprise';
 
     const dataToSend = {
       url: siteUrl,
-      name: data.get("name"),
-      phone: data.get("tel"),
-      email: data.get("email"),
-      company: data.get("company"),
-      count: data.get("count"),
+      formID,
+      formSource,
+      surname,
+      name,
+      count,
+      company,
+      position,
+      email,
+      phone: tel,
+      advertising,
       comment: `
-            ${data.get('subject') ? `Субъект: ${data.get('subject')}` : ""}      
-            ${data.get('department') ? `Департамент: ${data.get('department')}` : ""}            
             ${data.get('comment') ? `Вопрос: ${data.get('comment')}` : ""}
             ${data.get('company') ? `Компания: ${data.get('company')}` : ""}
             ${data.get("count") ? `Потенциальное количество пользователей: ${data.get("count")}` : ""}
@@ -95,7 +109,7 @@ class Form extends Component {
               data.get("privacy-policy") ? "Да" : "Нет"
             }
             Согласие на получение рекламы: ${
-              data.get("addv") ? "Да" : "Нет"
+              advertising ? "Да" : "Нет"
             }
 
             ${utmSource ? `utmSource: ${utmSource}` : ""}
