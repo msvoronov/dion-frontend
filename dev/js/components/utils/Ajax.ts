@@ -74,7 +74,7 @@ export class Ajax {
             resData = responseText;
           }
 
-          if (typeof resData !== "string" && resData.status !== "success") {
+          if (typeof resData !== "string" && "status" in resData && resData.status !== "success") {
             throw "error";
           }
 
